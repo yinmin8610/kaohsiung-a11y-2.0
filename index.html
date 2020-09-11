@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>紙錢集中燒化網頁</title>
+  <link rel="shortcut icon" href="./assets/images/smallLogo.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light px-5 bg-info">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img class="navbar-logo mr-2" src="./assets/images/logo.png" alt="高雄市政府環保局空噪科" id="">
+      <p class="navbar-title text-secondary mb-0 h4">高雄市政府環境保護局<br><span class="text-primary h2">紙錢集中燒化網頁<span></p>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse flex-column align-items-md-end" id="navbarSupportedContent">
+      <p class="mb-1">
+        <small>
+          <a class="text-accent" href="index.html">回首頁 </a>| 
+          <a class="text-accent" href="sitemap.html">網站導覽</a> | 
+          <a class="text-accent" href="https://ksepb.kcg.gov.tw/" target="_blank">高雄市政府環境保護局</a>
+        </small>
+      </p>
+
+      <ul class="navbar-nav d-flex justify-content-md-end">
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle h5" href="information.html" id="msgDropdown" role="button"
+             aria-haspopup="true" aria-expanded="false">訊息專區
+            <span class="sr-only">(current)</span>
+          </a>
+          <div class="dropdown-menu bg-info bg-md-white border-0 border-md" aria-labelledby="msgDropdown">
+            <a class="dropdown-item" href="informationNews.html">最新消息</a>
+            <a class="dropdown-item" href="informationPictures.html">活動照片</a>
+            <a class="dropdown-item" href="templeInfo.html">寺廟資訊</a>
+            <a class="dropdown-item" href="burnSchedule.html">集中燒化時程</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle h5" href="activity.html" id="activityDropdown" role="button"
+             aria-haspopup="true" aria-expanded="false">宣導專區</a>
+          <div class="dropdown-menu bg-info bg-md-white border-0 border-md" aria-labelledby="activityDropdown">
+            <a class="dropdown-item" href="donate.html">以功代金</a>
+            <a class="dropdown-item" href="burn.html">集中燒化</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h5" href="worshipStart.html">線上祭拜</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle h5" href="service.html" id="serviceDropdown" role="button"
+             aria-haspopup="true" aria-expanded="false">
+            便民服務
+          </a>
+          <div class="dropdown-menu bg-info bg-md-white border-0 border-md" aria-labelledby="serviceDropdown">
+            <a class="dropdown-item" href="serviceDownload.html">文件下載</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h5" href="contact.html">聯絡我們</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+<div>
+  <!-- 輪播圖：data-pause 停止輪播-->
+  <section class="container mb-4 mb-md-5">
+    <div id="carouselExampleControls" class="carousel slide py-3" data-pause="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active text-center">
+          <img src="./assets/images/carousel_img1.jpg" class="img-fluid" alt="開學了">
+        </div>
+        <div class="carousel-item text-center">
+          <img src="./assets/images/carousel_img2.jpg" class="img-fluid" alt="最誠心">
+        </div>
+        <div class="carousel-item text-center">
+          <img src="./assets/images/carousel_img3.jpg" class="img-fluid" alt="不擾鄰">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">上一張</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">下一張</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="container mb-4 mb-md-5">
+    <div class="row">
+      <div class="col-12 col-md-6 mb-4 mb-md-0">
+        <h2 class="h4 border-width pl-3 py-2 mb-3">熱門服務</h2>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <a href="donate.html" class="btn btn-info py-4 btn-block mb-3 mb-md-4">
+              以功代金
+            </a>
+          </div>
+          <div class="col-12 col-md-6">
+            <a href="burn.html" class="btn btn-info py-4 btn-block mb-3 mb-md-4">
+              集中燒化
+            </a>
+          </div>
+          <div class="col-12 col-md-6">
+            <a href="worshipStart.html" class="btn btn-info py-4 btn-block mb-3 mb-md-0">
+              線上祭拜
+            </a>
+          </div>
+          <div class="col-12 col-md-6">
+            <a href="serviceDownload.html" class="btn btn-info py-4 btn-block mb-3 mb-md-0">
+              文件下載
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 mb-4 mb-md-0">
+        <h2 class="h4 border-width pl-3 py-2 mb-3">集中燒化時程</h2>
+
+        <div class="d-flex bg-info p-2 align-items-end">
+          <div class="col-md-8">
+            <ul class="list-unstyled m-0">
+              <li>
+                <span class="text-primary">春節祭祖暨天公生</span>
+                <br />
+                109-1-29日~109-2-3 (農曆1月5日至1月10日)
+              </li>
+              <li>
+                <span class="text-primary">清明節</span>
+                <br />
+                109-3-28日~109-4-6日(農曆3月5日至3月14日)
+              </li>
+              <li class="mb-1">
+                <span class="text-primary">中元普渡</span>
+                <br />
+                109年8月19日~9月16日(農曆7月1日至7月29日)
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 d-flex justify-content-end">
+            <a href="templeInfo.html" class="btn btn-primary px-4" role="button">
+              查看更多…
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-info mb-5 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 mb-4 mb-md-0">
+          <h2 class="h4 border-width pl-3 py-2 mb-3">最新消息</h2>
+
+          <ul class="list-group list-group-flush bg-info mb-3">
+            <li class="list-group-item bg-info border-bottom border-light">
+              <span class="text-accent mr-2">109.08.13</span>
+              <a href="information_1090813.html">109 年度中元普渡紙錢集中燒活動期程表</a>
+            </li>
+            <li class="list-group-item bg-info border-bottom border-light">
+              <span class="text-accent mr-2">109.08.12</span>
+              <a href="information_1090812.html">中元普渡時節到 紙錢減量空污少 祭祀拜拜少燒金 以功代金最誠心</a>
+            </li>
+            <li class="list-group-item bg-info border-bottom border-light">
+              <span class="text-accent mr-2">109.07.27</span>
+              <a href="information_1090727.html">玉皇宮「燒紙錢」竄黑煙 民眾怒投訴</a>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-end">
+            <a href="informationNews.html" class="btn btn-primary px-4" role="button">
+              查看更多…
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <h2 class="h4 border-width pl-3 py-2 mb-3">影音專區</h2>
+
+          <div class="embed-responsive embed-responsive-16by9">
+            <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SqEs0TPCAK0" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SqEs0TPCAK0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/x4u8_nElwHg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container mb-5">
+    <h2 class="h4 border-width pl-3 py-2 mb-3">社福團體</h2>
+    <div id="carouselSocialWelfareGroup" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselSocialWelfareGroup" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselSocialWelfareGroup" data-slide-to="1"></li>
+        <li data-target="#carouselSocialWelfareGroup" data-slide-to="2"></li>
+        <li data-target="#carouselSocialWelfareGroup" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <ul class="d-flex align-items-end list-unstyled">
+            <li class="px-4">
+              <a href="https://lerencenter.eoffering.org.tw/" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare1.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">財團法人高雄市私立樂仁啟智中心</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="http://www.rocdown-syndrome.org.tw/" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare2.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">唐氏症基金會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="http://www.starfamily.org.tw/" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare3.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">星星兒社會福利基金會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="https://www.goh.org.tw/tc/index.asp" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare4.png" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">財團法人勵馨社會福利事業基金會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="http://chuen-yang.blogspot.com/" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare5.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">社團法人高雄市春陽協會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="http://www.redcross.org.tw/" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare6.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">中華民國紅十字會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="carousel-item">
+          <ul class="d-flex align-items-end list-unstyled">
+            <li class="px-4">
+              <a href="https://www.syinlu.org.tw/" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare7.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">財團法人心路社會福利基金會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="https://taifish.pixnet.net/blog" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare8.png" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">高雄市關懷魚鱗癬協會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="http://www.ksautism.org.tw/ap/index.aspx" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare9.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">社團法人高雄市自閉症協進會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="https://www.genesis.org.tw/" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare10.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">財團法人創世社會福利基金會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="https://taiwanhappy.org.tw/h/Index?key=700667796368" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare11.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">社團法人高雄市唐氏症歡喜協會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="https://donate.ccf.org.tw/32" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare12.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">台灣兒童暨家庭扶助基金會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="carousel-item">
+          <ul class="d-flex align-items-end list-unstyled">
+            <li class="px-4">
+              <a href="https://www.iplanting.org/" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare13.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">社團法人高雄市愛種樹協會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="http://www.khcp.org.tw/" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare14.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">社團法人高雄市腦性麻痺服務協會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="http://www.pochild.org.tw/" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare15.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">財團法人高雄市私立博正兒童發展中心</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="http://www.hondao.org.tw/article-detail/6700" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare16.png" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">弘道老人福利基金會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="https://www.chaca.org.tw/" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare17.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">安得烈食物銀行</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="https://www.ourquality.com.tw/" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare18.png" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">高雄市快樂堤心理協會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="carousel-item">
+          <ul class="d-flex align-items-end list-unstyled">
+            <li class="px-4">
+              <a href="http://www.cihhueigarden.org.tw/" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare19.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">財團法人高雄市私立紅十字會育幼中心慈暉園</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="https://www.facebook.com/hasbf.official/" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare20.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">社團法人高雄市自強身障關懷協會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="https://www.facebook.com/profile.php?id=100004131369183" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare21.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">社團法人高雄市芬多精身心障礙關懷保護協會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="http://www.c-are-us.org.tw/" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare22.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">喜憨兒基金會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="http://www.goodshepherd.org.tw/chtw/" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare23.png" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">天主教善牧基金會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="px-4">
+              <a href="https://www.beunen.org.tw/" target="_blank">
+                <div class="card mb-3 border-0">
+                  <img src="./assets/images/social_welfare24.jpg" alt="社福團體" width="140px" />
+                  <div class="card-body text-center py-0 px-0">
+                    <small class="card-title">財團法人天主教白永恩神父社會福利基金會</small>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselSocialWelfareGroup" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselSocialWelfareGroup" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+</div>
+
+  <footer class="footer bg-info px-5 py-4 d-flex justify-content-between flex-column flex-md-row">
+
+      <section class="mb-3 mb-md-0">
+        <p class="mb-0">電話：07-7351550</p>
+        <p>公害檢舉專線：0800-066666</p>
+        <h6 class="font-weight-normal">Copyright © 2020 高雄市政府環保局空噪科 版權所有</h6>
+        <p class="mb-0"><small>建議螢幕解析度為 1024*768 瀏覽器 IE6.0 以上版本 Firefox,Google,Chrome<br>
+            請尊重智慧財產權, 未經允許請勿任意轉載, 複製或做商業用途</small>
+        </p>
+      </section>
+      <section>
+        <a href="privacy.html" class="btn btn-light text-secondary">隱私權安全資訊</a>
+        <a href="copyright.html" class="btn btn-light text-secondary">著作權聲明</a>
+        <ul class="list-unstyled d-flex justify-content-between mt-2">
+          <li class="text-accent">
+            <p class="mb-1">本站造訪人數</p>
+            <img src="https://www.mfwzjsq.com/hit.php?id=yvemukoq&nd=6&style=50" border="0" alt="網頁計數器">
+            <p class="m-0">資料更新日期</p>
+            <p class="m-0">2020-09-11</p>
+          </li>
+          <li>無障礙標籤</li>
+        </ul>
+      </section>
+  </footer>
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+
+</body>
+
+</html>

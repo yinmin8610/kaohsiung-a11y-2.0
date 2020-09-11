@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>寺廟資訊</title>
+  <link rel="shortcut icon" href="./assets/images/smallLogo.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light px-5 bg-info">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img class="navbar-logo mr-2" src="./assets/images/logo.png" alt="高雄市政府環保局空噪科" id="">
+      <p class="navbar-title text-secondary mb-0 h4">高雄市政府環境保護局<br><span class="text-primary h2">紙錢集中燒化網頁<span></p>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse flex-column align-items-md-end" id="navbarSupportedContent">
+      <p class="mb-1">
+        <small>
+          <a class="text-accent" href="index.html">回首頁 </a>| 
+          <a class="text-accent" href="sitemap.html">網站導覽</a> | 
+          <a class="text-accent" href="https://ksepb.kcg.gov.tw/" target="_blank">高雄市政府環境保護局</a>
+        </small>
+      </p>
+
+      <ul class="navbar-nav d-flex justify-content-md-end">
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle h5" href="information.html" id="msgDropdown" role="button"
+             aria-haspopup="true" aria-expanded="false">訊息專區
+            <span class="sr-only">(current)</span>
+          </a>
+          <div class="dropdown-menu bg-info bg-md-white border-0 border-md" aria-labelledby="msgDropdown">
+            <a class="dropdown-item" href="informationNews.html">最新消息</a>
+            <a class="dropdown-item" href="informationPictures.html">活動照片</a>
+            <a class="dropdown-item" href="templeInfo.html">寺廟資訊</a>
+            <a class="dropdown-item" href="burnSchedule.html">集中燒化時程</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle h5" href="activity.html" id="activityDropdown" role="button"
+             aria-haspopup="true" aria-expanded="false">宣導專區</a>
+          <div class="dropdown-menu bg-info bg-md-white border-0 border-md" aria-labelledby="activityDropdown">
+            <a class="dropdown-item" href="donate.html">以功代金</a>
+            <a class="dropdown-item" href="burn.html">集中燒化</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h5" href="worshipStart.html">線上祭拜</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle h5" href="service.html" id="serviceDropdown" role="button"
+             aria-haspopup="true" aria-expanded="false">
+            便民服務
+          </a>
+          <div class="dropdown-menu bg-info bg-md-white border-0 border-md" aria-labelledby="serviceDropdown">
+            <a class="dropdown-item" href="serviceDownload.html">文件下載</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h5" href="contact.html">聯絡我們</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+<div class="container min-h">
+   <!-- 麵包屑 -->
+   <nav aria-label="breadcrumb">
+    <ol class="breadcrumb my-4">
+      <li class="breadcrumb-item h6"><a href="index.html" class="text-dark">首頁</a></li>
+      <li class="breadcrumb-item h6"><a href="information.html" class="text-dark">訊息專區</a></li>
+      <li class="breadcrumb-item active h6" aria-current="page">寺廟資訊</li>
+    </ol>
+  </nav>
+
+  <h1 class="border-width my-5 pl-3">寺廟資訊</h1>
+
+  <div class="row mb-5">
+    <div class="col-md-4 mb-4 mb-md-0">
+      <div class="list-group text-center" id="list-tab" role="tablist">
+        <a class="list-group-item list-group-item-action active" id="list-allTemple-list" data-toggle="list"
+          href="#list-allTemple" role="tab" aria-controls="allTemple">高雄市已裝設環保金爐寺廟一覽</a>
+        <a class="list-group-item list-group-item-action" id="list-prosCons-list" data-toggle="list"
+          href="#list-prosCons" role="tab" aria-controls="prosCons">空氣污染防制設備優缺點說明</a>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="list-allTemple" role="tabpanel" aria-labelledby="list-home-list">
+          <div class="card">
+            <h5 class="card-header bg-info">已裝設環保金爐寺廟一覽</h5>
+            <div class="card-body">
+              <label for="district">選擇行政區</label>
+              <select class="custom-select custom-select-lg mb-3" id="districtSelect">
+                
+              </select>
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">寺廟名稱</th>
+                      <th scope="col">行政區</th>
+                      <th scope="col">地址</th>
+                      <th scope="col">教別</th>
+                      <th scope="col">防制設備</th>
+                    </tr>
+                  </thead>
+                  <tbody id="templeTable">
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="list-prosCons" role="tabpanel" aria-labelledby="list-prosCons-list">
+          <div class="card">
+            <h5 class="card-header bg-info">空氣污染防制設備優缺點說明</h5>
+            <div class="card-body">
+              <ul class="list-unstyled">
+                <li class="media">
+                  <!-- <img src="..." class="mr-3" alt="..."> -->
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-2">重力沉降室檔板收集器</h5>
+                    <div class="row">
+                      <div class="col-5">
+                        <h6>優點：</h6>
+                        <ol>
+                          <li>壓力損失低</li>
+                          <li>設計及維護簡易</li>
+                        </ol>
+                      </div>
+                      <div class="col-5">
+                        <h6>缺點：</h6>
+                        <ol>
+                          <li>需求空間大</li>
+                          <li>收集效率低(約50%)</li>
+                          <li>對細微粉塵無法去除</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <hr class="border-info">
+                <li class="media my-4">
+                  <!-- <img src="..." class="mr-3" alt="..."> -->
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-2">旋風集塵器</h5>
+                    <div class="row">
+                      <div class="col-5">
+                        <h6>優點：</h6>
+                        <ol>
+                          <li>所需空間小，收集效率約85%</li>
+                          <li>收集塵粒乾，可連續處置</li>
+                          <li>低至中度壓損</li>
+                          <li>處理大型顆粒</li>
+                          <li>不受溫度影響</li>
+                        </ol>
+                      </div>
+                      <div class="col-5">
+                        <h6>缺點：</h6>
+                        <ol>
+                          <li>需較高的垂直距離</li>
+                          <li>收對小顆粒收集效率低</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <hr class="border-info">
+                <li class="media">
+                  <!-- <img src="..." class="mr-3" alt="..."> -->
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-2">濕式洗滌塔</h5>
+                    <div class="row">
+                      <div class="col-5">
+                        <h6>優點：</h6>
+                        <ol>
+                          <li>可同時處理氣狀污染物</li>
+                          <li>冷卻並清除高溫、高濕度氣體</li>
+                          <li>減低粉塵爆炸之危險</li>
+                          <li>收集效率約85%</li>
+                        </ol>
+                      </div>
+                      <div class="col-5">
+                        <h6>缺點：</h6>
+                        <ol>
+                          <li>腐蝕性問題</li>
+                          <li>增加廢水處理問題</li>
+                          <li>排氣易受氣體影響而受污染</li>
+                          <li>濕度過高氣候下，易產生白煙</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <hr class="border-info">
+                <li class="media">
+                  <!-- <img src="..." class="mr-3" alt="..."> -->
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-2">靜電集塵器</h5>
+                    <div class="row">
+                      <div class="col-5">
+                        <h6>優點：</h6>
+                        <ol>
+                          <li>可達99%以上之去除率</li>
+                          <li>可收集細小之微粒</li>
+                          <li>微粒可以濕式或乾式收集</li>
+                          <li>壓力降低及能量需求較低</li>
+                          <li>除腐蝕、附著問題外，操作正常</li>
+                          <li>可在高溫下操作</li>
+                        </ol>
+                      </div>
+                      <div class="col-5">
+                        <h6>缺點：</h6>
+                        <ol>
+                          <li>高建造成本</li>
+                          <li>需小心維護以免人員受高電壓影響</li>
+                          <li>易受煙塵負荷及流率之影響</li>
+                          <li>收集效率會逐漸退化</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <hr class="border-info">
+                <li class="media">
+                  <!-- <img src="..." class="mr-3" alt="..."> -->
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-2">袋式集塵器</h5>
+                    <div class="row">
+                      <div class="col-5">
+                        <h6>優點：</h6>
+                        <ol>
+                          <li>可乾式收集</li>
+                          <li>可察覺操作性質減低</li>
+                          <li>可收集小微粒</li>
+                          <li>可達99%以上之去除率</li>
+                        </ol>
+                      </div>
+                      <div class="col-5">
+                        <h6>缺點：</h6>
+                        <ol>
+                          <li>高建造成本</li>
+                          <li>需小心維護以免人員受高電壓影響</li>
+                          <li>易受煙塵負荷及流率之影響</li>
+                          <li>收集效率會逐漸退化</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <footer class="footer bg-info px-5 py-4 d-flex justify-content-between flex-column flex-md-row">
+
+      <section class="mb-3 mb-md-0">
+        <p class="mb-0">電話：07-7351550</p>
+        <p>公害檢舉專線：0800-066666</p>
+        <h6 class="font-weight-normal">Copyright © 2020 高雄市政府環保局空噪科 版權所有</h6>
+        <p class="mb-0"><small>建議螢幕解析度為 1024*768 瀏覽器 IE6.0 以上版本 Firefox,Google,Chrome<br>
+            請尊重智慧財產權, 未經允許請勿任意轉載, 複製或做商業用途</small>
+        </p>
+      </section>
+      <section>
+        <a href="privacy.html" class="btn btn-light text-secondary">隱私權安全資訊</a>
+        <a href="copyright.html" class="btn btn-light text-secondary">著作權聲明</a>
+        <ul class="list-unstyled d-flex justify-content-between mt-2">
+          <li class="text-accent">
+            <p class="mb-1">本站造訪人數</p>
+            <img src="https://www.mfwzjsq.com/hit.php?id=yvemukoq&nd=6&style=50" border="0" alt="網頁計數器">
+            <p class="m-0">資料更新日期</p>
+            <p class="m-0">2020-09-11</p>
+          </li>
+          <li>無障礙標籤</li>
+        </ul>
+      </section>
+  </footer>
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+
+</body>
+
+</html>
