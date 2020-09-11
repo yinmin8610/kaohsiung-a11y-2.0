@@ -1,0 +1,92 @@
+// .ul-style {
+//   list-style: none;
+//   li::before {
+//     content: "\2022";
+//     color: $primary;
+//     font-weight: bold;
+//     display: inline-block;
+//     width: 1em;
+//     margin-left: -1em;
+//   }
+// }
+body {
+  color: $secondary;
+}
+.min-h{
+  min-height: 650px;
+}
+.border-width {
+  border-left: 5px solid $primary;
+}
+.btn-info {
+  color: $secondary;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info:not(:disabled):not(.disabled):active,
+.btn-info:not(:disabled):not(.disabled).active,
+.show > .btn-info.dropdown-toggle {
+  background-color: $primary;
+  border-color: #a2340a;
+  color: $white;
+}
+.btn-info:focus,
+.btn-info.focus {
+  box-shadow: 0 0 0 0.2rem rgba(217, 96, 49, 0.5);
+}
+.carousel-indicators li {
+  background-color: $accent;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 2%;
+}
+
+.border-under {
+  border: none;
+  border-bottom: 1px solid $light;
+}
+
+.text-mul-truncate {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.btn-menu {
+  color: #5c4e44;
+  background-color: #f8f6f4;
+  &:hover {
+    color: $white;
+    background-color: #d2440d;
+  }
+}
+.navbar-logo {
+  width: 80px;
+  @include media-breakpoint-down(md) {
+    width: 40px;
+  }
+}
+.navbar-title,
+.navbar-title span {
+  @include media-breakpoint-down(md) {
+    font-size: 16px;
+  }
+}
+.bg-md-white {
+  @include media-breakpoint-up(lg) {
+    background-color: $white !important;
+  }
+}
+.dropdown-item:hover {
+  @include media-breakpoint-up(lg) {
+    background-color: $info;
+  }
+}
+.border-md {
+  @include media-breakpoint-up(lg) {
+    border: 1px solid $light !important;
+  }
+}

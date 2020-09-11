@@ -1,0 +1,73 @@
+---
+title: 集中燒化時程
+layout: ./app/layout.ejs
+engine: ejs
+current: burnSchedule
+---
+
+<div class="container">
+  <!-- 麵包屑 -->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb my-4">
+      <li class="breadcrumb-item h6"><a href="index.html" class="text-dark">首頁</a></li>
+      <li class="breadcrumb-item h6"><a href="information.html" class="text-dark">訊息專區</a></li>
+      <li class="breadcrumb-item active h6" aria-current="page">集中燒化時程</li>
+    </ol>
+  </nav>
+
+  <h1 class="my-5 border-width pl-3">集中燒化時程</h1>
+
+  <div class="row mb-5">
+    <div class="col-md-4 mb-4 mb-md-0">
+      <div class="list-group text-center" id="list-tab" role="tablist">
+        <a class="list-group-item list-group-item-action active" id="list-chineseNewYear-list" data-toggle="list"
+          href="#list-chineseNewYear" role="tab" aria-controls="chineseNewYear">春節祭祖暨天公生</a>
+        <a class="list-group-item list-group-item-action" id="list-tombSweepingFestival-list" data-toggle="list"
+          href="#list-tombSweepingFestival" role="tab" aria-controls="tombSweepingFestival">清明節</a>
+        <a class="list-group-item list-group-item-action" id="list-ghostFeatival-list" data-toggle="list"
+          href="#list-ghostFeatival" role="tab" aria-controls="GhostFeatival">中元普渡</a>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div class="tab-content" id="nav-tabContent">
+        <!-- 春節祭祖暨天公生實施時間: -->
+        <div class="tab-pane fade show active" id="list-chineseNewYear" role="tabpanel"
+          aria-labelledby="list-chineseNewYear-list">
+          <div class="bg-info p-5">
+            <h2 class="h4 mb-3">春節祭祖暨天公生實施時間</h2>
+            <ul>
+              <li>109 年 1 月 29 日～2 月 3 日 (農曆 1 月 5 日至 1 月 10 日)</li>
+              <li>108 年 2 月 9 日～2 月 14 日 (農曆 1 月 5 日至 1 月 10 日)</li>
+              <li>107 年 2 月 21 日～2 月 27 日 (農曆 1 月 6 日至 1 月 12 日)</li>
+            </ul>
+            <p class="text-primary"></p>
+          </div>
+        </div>
+        <!-- 清明節實施時間 -->
+        <div class="tab-pane fade" id="list-tombSweepingFestival" role="tabpanel"
+          aria-labelledby="list-tombSweepingFestival-list">
+          <div class="bg-info p-5">
+            <h2 class="h4 mb-3">清明節實施時間</h2>
+            <ul>
+              <li>109 年 3 月 28 日～4 月 6 日 (農曆 3 月 5 日至 3 月 14 日)</li>
+              <li>108 年 3 月 30 日～4 月 6 日 (農曆 2 月 24 日至 3 月 2 日)</li>
+              <li>107 年 3 月 31 日～4 月 7 日 (農曆 2 月 15 日至 2 月 22 日)</li>
+            </ul>
+          </div>
+        </div>
+        <!-- 中元普渡實施時間 -->
+        <div class="tab-pane fade" id="list-ghostFeatival" role="tabpanel" aria-labelledby="list-ghostFeatival-list">
+          <div class="bg-info p-5">
+            <h2 class="h4 mb-3">中元普渡實施時間</h2>
+            <ul>
+              <li>109 年 8 月 19 日～9 月 16 日 (農曆 7 月 1 日至 7 月 29 日)</li>
+              <li>108 年 8 月 1 日～8 月 29 日 (農曆 7 月 1 日至 7 月 29 日)</li>
+              <li>107 年 8 月 11 日～9 月 9 日 (農曆 7 月 1 日至 7 月 30 日)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

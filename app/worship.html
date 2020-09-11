@@ -1,0 +1,80 @@
+---
+title: 線上祭拜_虔誠參拜
+layout: ./app/layout.ejs
+engine: ejs
+current: worship
+---
+
+<div class="container">
+  <h1 class="my-5 border-width pl-3">線上祭拜</h1>
+
+  <div class="row justify-content-center">
+    <div class="col-8">
+      <div class="row mb-5">
+        <div class="col pr-0">
+          <div class="d-flex justify-content-end align-items-center">
+            <span class="origin origin-solid"></span>
+          </div>
+        </div>
+        <div class="col px-0 position-relative">
+          <div class="d-flex align-items-center">
+            <span class="line line-carryOut"></span>
+            <span class="origin origin-solid"></span>
+          </div>
+        </div>
+        <div class="col px-0">
+          <div class="d-flex align-items-center">
+            <span class="line line-carryOut"></span>
+            <span class="origin origin-solid"></span>
+            <p class="stepName">虔誠參拜</p>
+          </div>
+        </div>
+        <div class="col px-0">
+          <div class="d-flex align-items-center">
+            <span class="line line-undone"></span>
+            <span class="origin origin-hollow"></span>
+          </div>
+        </div>
+        <div class="col px-0">
+          <div class="d-flex align-items-center">
+            <span class="line line-undone"></span>
+            <span class="origin origin-hollow"></span>
+          </div>
+        </div>
+        <div class="col px-0">
+          <div class="d-flex align-items-center">
+            <span class="line line-undone"></span>
+            <span class="origin origin-hollow"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-9">
+      <h5 class="ml-5 pl-3 py-5">步驟三：虔誠參拜</h5>
+
+      <div class="ml-5 pl-3 bg bg-desk" style="position: relative">
+        <div class="d-flex flex-wrap justify-content-around align-items-center" width="100px" style="position: absolute; top: 45%; bottom: 20%; left: 25%; right: 25%;">
+          <img src="./assets/images/jossPaper.png" alt="金紙">
+          <img src="./assets/images/apple.png" alt="蘋果" class="d-none" id="appleImg">
+          <img src="./assets/images/orange.png" alt="香橙" class="d-none" id="orangeImg">
+          <img src="./assets/images/banana.png" alt="香蕉" class="d-none" id="bananaImg">
+          <img src="./assets/images/grape.png" alt="葡萄" class="d-none" id="grapeImg">
+          <img src="./assets/images/threeAnimals.png" alt="三牲" class="d-none" id="threeAnimalsImg">
+          <img src="./assets/images/flower.png" alt="鮮花" class="d-none" id="flowerImg">
+        </div>
+      </div>
+      <div class="my-5 text-right">
+        <button
+          type="button"
+          class="btn btn-outline-primary px-4 mr-3"
+          onclick="location.href='./worshipChooseOfferings.html'"
+        >
+          上一步
+        </button>
+        <button type="button" class="btn btn-primary px-4" id="stepThree">下一步</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,1153 @@
+[
+  {
+    "id": "0",
+    "name": "大港福德祠",
+    "district": "三民區",
+    "address": "高雄市三民區民族一路180巷12之1號",
+    "religion": "福德正神",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "1",
+    "name": "灣子內朝天宮",
+    "district": "三民區",
+    "address": "高雄市三民區鼎山街650號",
+    "religion": "天上聖母",
+    "facility": "旋風集塵器"
+  },
+  {
+    "id": "2",
+    "name": "高雄聖何宮",
+    "district": "三民區",
+    "address": "高雄市三民區金山路146號",
+    "religion": "關聖帝君",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "3",
+    "name": "大港保安宮",
+    "district": "三民區",
+    "address": "高雄市三民區十全一路52號",
+    "religion": "保生大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "4",
+    "name": "義永寺",
+    "district": "三民區",
+    "address": "高雄市三民區建興三巷1號",
+    "religion": "釋迦佛祖",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "5",
+    "name": "三鳳宮",
+    "district": "三民區",
+    "address": "高雄市三民區河北二路134號",
+    "religion": "中壇元帥",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "6",
+    "name": "玉皇宮",
+    "district": "三民區",
+    "address": "高雄市三民區河北二路218號",
+    "religion": "玉皇大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "7",
+    "name": "高雄道德院",
+    "district": "三民區",
+    "address": "高雄市三民區鼎金一巷27號",
+    "religion": "太上道祖",
+    "facility": "旋風集塵器"
+  },
+  {
+    "id": "8",
+    "name": "萬姓公媽廟",
+    "district": "三民區",
+    "address": "高雄市三民區三民街184之1號",
+    "religion": "萬姓公、萬姓媽",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "9",
+    "name": "龍池宮",
+    "district": "三民區",
+    "address": "高雄市三民區大和街66號",
+    "religion": "天上聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "10",
+    "name": "明聖宮",
+    "district": "三民區",
+    "address": "高雄市三民區綏遠二街155號",
+    "religion": "五福大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "11",
+    "name": "東寮宮",
+    "district": "三民區",
+    "address": "高雄市三民區鼎中路821之25號",
+    "religion": "五福大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "12",
+    "name": "保元宮",
+    "district": "大社區",
+    "address": "高雄市大社區大社路87號",
+    "religion": "保生大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "13",
+    "name": "青雲宮",
+    "district": "大社區",
+    "address": "高雄市大社區中華路127號",
+    "religion": "神農大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "14",
+    "name": "靈霄寶殿慈心堂",
+    "district": "大寮區",
+    "address": "高雄市大寮區成功路193號",
+    "religion": "玉皇大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "15",
+    "name": "聖母宮",
+    "district": "大寮區",
+    "address": "高雄市大寮區翁園路151-11號",
+    "religion": "天上聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "16",
+    "name": "興濟宮",
+    "district": "大寮區",
+    "address": "高雄市大寮區鳳屏一路331號",
+    "religion": "保生大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "17",
+    "name": "南郡慈惠堂",
+    "district": "小港區",
+    "address": "高雄市小港區松樂街192號",
+    "religion": "瑤池金母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "18",
+    "name": "至陽宮",
+    "district": "小港區",
+    "address": "高雄市小港區民益路73巷2號",
+    "religion": "太陽星君",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "19",
+    "name": "福德祠",
+    "district": "小港區",
+    "address": "高雄市小港區小港路142巷2弄5號",
+    "religion": "福德正神",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "20",
+    "name": "鳳騰宮",
+    "district": "小港區",
+    "address": "高雄市小港區高坪17街186號",
+    "religion": "武德尊侯",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "21",
+    "name": "聖和宮",
+    "district": "小港區",
+    "address": "高雄市小港區高坪20街25巷27弄9號",
+    "religion": "吳府千歲",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "22",
+    "name": "鳳林宮",
+    "district": "小港區",
+    "address": "高雄市小港區鳳林路160號",
+    "religion": "溫府千歲",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "23",
+    "name": "嘉應分宮池王府",
+    "district": "小港區",
+    "address": "高雄市小港區新昌街7號",
+    "religion": "池府王爺",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "24",
+    "name": "鼎金北極殿",
+    "district": "仁武區",
+    "address": "高雄市仁武區仁雄路533號",
+    "religion": "玄天上帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "25",
+    "name": "舊城城隍廟",
+    "district": "左營區",
+    "address": "高雄市左營區店仔頂路1號",
+    "religion": "城隍尊神",
+    "facility": "旋風集塵器"
+  },
+  {
+    "id": "26",
+    "name": "葫蘆尾福德廟",
+    "district": "左營區",
+    "address": "高雄市左營區文奇路170巷12-1號",
+    "religion": "福德正神",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "27",
+    "name": "埤子頭鎮福廟",
+    "district": "左營區",
+    "address": "高雄市左營區左營大路6巷81號3樓",
+    "religion": "福德正神",
+    "facility": "旋風集塵器"
+  },
+  {
+    "id": "28",
+    "name": "啟明堂",
+    "district": "左營區",
+    "address": "高雄市左營區蓮潭路36號",
+    "religion": "文衡聖帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "29",
+    "name": "秋順宮",
+    "district": "左營區",
+    "address": "高雄市左營區富國路353巷24號",
+    "religion": "媽祖",
+    "facility": "旋風集塵器"
+  },
+  {
+    "id": "30",
+    "name": "青雲宮",
+    "district": "左營區",
+    "address": "高雄市左營區新中街130號",
+    "religion": "保生大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "31",
+    "name": "福德祠",
+    "district": "左營區",
+    "address": "高雄市左營區新莊仔路548號",
+    "religion": "福德正神",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "32",
+    "name": "新庄仔天公廟",
+    "district": "左營區",
+    "address": "高雄市左營區新下街115號",
+    "religion": "關聖帝君",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "33",
+    "name": "永安宮",
+    "district": "永安區",
+    "address": "高雄市永安區永安路49號",
+    "religion": "媽祖",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "34",
+    "name": "協和宮",
+    "district": "岡山區",
+    "address": "高雄市岡山區協和街64號",
+    "religion": "池府千歲",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "35",
+    "name": "聖善堂",
+    "district": "岡山區",
+    "address": "高雄市岡山區成功路88巷5號",
+    "religion": "關聖帝君",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "36",
+    "name": "無極紫修殿警善堂",
+    "district": "林園區",
+    "address": "高雄市林園區樣林巷10號",
+    "religion": "瑤池金母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "37",
+    "name": "廣應廟",
+    "district": "林園區",
+    "address": "高雄市林園區王公路340號",
+    "religion": "謝府王爺",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "38",
+    "name": "興濟宮",
+    "district": "林園區",
+    "address": "高雄市林園區忠孝西路18號",
+    "religion": "保生大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "39",
+    "name": "萬興宮",
+    "district": "前金區",
+    "address": "高雄市前金區成功一路325號",
+    "religion": "清水祖師",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "40",
+    "name": "廣濟宮",
+    "district": "前鎮區",
+    "address": "高雄市前鎮區中山二路217號",
+    "religion": "保生大帝",
+    "facility": "旋風集塵器"
+  },
+  {
+    "id": "41",
+    "name": "慈明宮",
+    "district": "前鎮區",
+    "address": "高雄市前鎮區廣西路416號",
+    "religion": "天上聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "42",
+    "name": "建龍宮",
+    "district": "苓雅區",
+    "address": "高雄市苓雅區永泰路91號",
+    "religion": "五府千歲",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "43",
+    "name": "高東天后宮",
+    "district": "苓雅區",
+    "address": "高雄市苓雅區河北路155號",
+    "religion": "天上聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "44",
+    "name": "高雄港口慈濟宮",
+    "district": "苓雅區",
+    "address": "高雄市苓雅區建軍路166之3號",
+    "religion": "天上聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "45",
+    "name": "修齊殿",
+    "district": "苓雅區",
+    "address": "高雄市苓雅區惠安街65號",
+    "religion": "葉府千歲",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "46",
+    "name": "德興殿",
+    "district": "苓雅區",
+    "address": "高雄市苓雅區光華一路148-6號",
+    "religion": "神農大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "47",
+    "name": "大壽宮",
+    "district": "梓官區",
+    "address": "高雄市梓官區大舍里大舍東路公厝巷4號",
+    "religion": "天上聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "48",
+    "name": "元聖宮",
+    "district": "梓官區",
+    "address": "高雄市梓官區赤崁東路130巷33之1號",
+    "religion": "中壇元帥",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "49",
+    "name": "明聖殿",
+    "district": "新興區",
+    "address": "高雄市新興區南台路123號",
+    "religion": "文衡聖帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "50",
+    "name": "聖雲宮",
+    "district": "楠梓區",
+    "address": "高雄市楠梓區聖雲街129號",
+    "religion": "保生大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "51",
+    "name": "福德祠",
+    "district": "楠梓區",
+    "address": "高雄市楠梓區後勁西路122號",
+    "religion": "福德正神",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "52",
+    "name": "楠梓代天府",
+    "district": "楠梓區",
+    "address": "高雄市楠梓區楠梓西巷45之1號",
+    "religion": "朱府王爺",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "53",
+    "name": "援中港代天府",
+    "district": "楠梓區",
+    "address": "高雄市楠梓區德中路81巷31號",
+    "religion": "五府千歲",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "54",
+    "name": "德安宮",
+    "district": "鼓山區",
+    "address": "高雄市鼓山區中華一路2133巷45之1號",
+    "religion": "天上聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "55",
+    "name": "龍水化龍宮",
+    "district": "鼓山區",
+    "address": "高雄市鼓山區河西一路1357號",
+    "religion": "中壇元帥",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "56",
+    "name": "玉虛穹北極殿",
+    "district": "鼓山區",
+    "address": "高雄市鼓山區鼓山三路108之20號",
+    "religion": "玄天上帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "57",
+    "name": "代天宮",
+    "district": "鼓山區",
+    "address": "高雄市鼓山區鼓波街27號",
+    "religion": "五府千歲",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "58",
+    "name": "內惟青雲宮",
+    "district": "鼓山區",
+    "address": "高雄鼓山區建榮路157巷24號",
+    "religion": "保生大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "59",
+    "name": "石岩寺",
+    "district": "旗山區",
+    "address": "高雄市旗山區南洲里石岩巷1號",
+    "religion": "觀音彿祖",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "60",
+    "name": "圓潭保安宮",
+    "district": "旗山區",
+    "address": "高雄市旗山區中正里旗甲路三段177巷1號",
+    "religion": "保生大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "61",
+    "name": "保安金山寺",
+    "district": "旗津區",
+    "address": "高雄市旗津區中洲二路117號",
+    "religion": "觀音佛祖",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "62",
+    "name": "中洲廣濟宮",
+    "district": "旗津區",
+    "address": "高雄市旗津區旗津二路255號",
+    "religion": "觀音佛祖",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "63",
+    "name": "旗后臨水宮",
+    "district": "旗津區",
+    "address": "高順天聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "64",
+    "name": "天后宮",
+    "district": "旗津區",
+    "address": "高雄市旗津區廟前路93號",
+    "religion": "天上聖母",
+    "facility": "旋風集塵器"
+  },
+  {
+    "id": "65",
+    "name": "雷府大將公廟",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區五甲一路732號",
+    "religion": "雷府大將公",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "66",
+    "name": "飛鳳宮",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區保華一路136號",
+    "religion": "保儀尊王",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "67",
+    "name": "朝鳳寺",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區紅毛港路90號",
+    "religion": "觀音菩薩",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "68",
+    "name": "保安堂",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區國慶7街132號",
+    "religion": "郭府千歲",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "69",
+    "name": "城隍廟",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區鳳明街66號",
+    "religion": "城隍爺",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "70",
+    "name": "鳳山天公廟",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區光明路151號",
+    "religion": "玉皇上帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "71",
+    "name": "雙慈亭",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區三民路285-1號",
+    "religion": "天上聖母",
+    "facility": "旋風集塵器"
+  },
+  {
+    "id": "72",
+    "name": "飛鳳寺",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區紅毛港路27號",
+    "religion": "廣澤尊王",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "73",
+    "name": "瑞安宮",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區中山東路213巷5號",
+    "religion": "天上聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "74",
+    "name": "神農宮",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區文衡殿110號",
+    "religion": "神農大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "75",
+    "name": "鳳山代天府",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區中山東路229巷22之1號",
+    "religion": "五府千歲",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "76",
+    "name": "福德宮",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區鎮東街37號",
+    "religion": "福德正神",
+    "facility": "旋風集塵器"
+  },
+  {
+    "id": "77",
+    "name": "鳳山北極殿",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區瑞興路65號",
+    "religion": "玄天上帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "78",
+    "name": "德玄宮",
+    "district": "橋頭區",
+    "address": "高雄市橋頭區德松路29號",
+    "religion": "玄天上帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "79",
+    "name": "代天府",
+    "district": "橋頭區",
+    "address": "高雄市橋頭區建樹路56號",
+    "religion": "池府千歲",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "80",
+    "name": "九甲圍義山宮",
+    "district": "橋頭區",
+    "address": "高雄市橋頭區甲新路82號",
+    "religion": "三山國王",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "81",
+    "name": "朝后宮",
+    "district": "鹽埕區",
+    "address": "高雄市鹽埕區北斗街6號",
+    "religion": "天上聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "82",
+    "name": "文武聖殿",
+    "district": "鹽埕區",
+    "address": "高雄市鹽埕區富野路170號",
+    "religion": "文衡聖帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "83",
+    "name": "霞海城隍廟",
+    "district": "鹽埕區",
+    "address": "高雄市鹽埕區富野路81號",
+    "religion": "霞海城隍公祖",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "84",
+    "name": "三山國王廟",
+    "district": "鹽埕區",
+    "address": "高雄市鹽埕區鹽埕街54號",
+    "religion": "三山國王",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "85",
+    "name": "保安宮",
+    "district": "鹽埕區",
+    "address": "高雄市鹽埕區大公路117號",
+    "religion": "康府千歲",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "86",
+    "name": "北極殿",
+    "district": "大寮區",
+    "address": "高雄市大寮區溪寮路95號",
+    "religion": "玄天上帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "87",
+    "name": "岡山壽天宮",
+    "district": "岡山區",
+    "address": "高雄市岡山區公園路40號",
+    "religion": "天上聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "88",
+    "name": "福德宮",
+    "district": "鳥松區",
+    "address": "高雄市鳥松區山腳路58號",
+    "religion": "福德正神",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "89",
+    "name": "一甲觀音亭",
+    "district": "路竹區",
+    "address": "高雄市路竹區大智路39號",
+    "religion": "觀世音彿祖",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "90",
+    "name": "福德祠",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區建國路三段365巷16號",
+    "religion": "福德正神",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "91",
+    "name": "九曲堂北極殿",
+    "district": "大樹區",
+    "address": "高雄市大樹區九曲里九曲路270-1號",
+    "religion": "玄天上帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "92",
+    "name": "鎮南宮仙公廟",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區合奐街189號",
+    "religion": "孚佑帝君",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "93",
+    "name": "鳳邑省化社喚善堂",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區瑞興路180號",
+    "religion": "王天君",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "94",
+    "name": "上帝宮",
+    "district": "仁武區",
+    "address": "高雄市仁武區信義巷1號",
+    "religion": "玄天上帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "95",
+    "name": "雲天宮",
+    "district": "仁武區",
+    "address": "高雄市仁武區仁孝路237號",
+    "religion": "關聖帝君",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "96",
+    "name": "福清宮",
+    "district": "仁武區",
+    "address": "高雄市仁武區文化巷76號",
+    "religion": "清水祖師",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "97",
+    "name": "聖恩堂",
+    "district": "鳥松區",
+    "address": "高雄市鳥松區松埔路41號",
+    "religion": "玄天上帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "98",
+    "name": "高白玉聖殿",
+    "district": "仁武區",
+    "address": "高雄市仁武區八卦里大同一街118號",
+    "religion": "張毓大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "99",
+    "name": "警悟禪寺",
+    "district": "岡山區",
+    "address": "高雄市岡山區壽天路88號",
+    "religion": "釋迦牟尼佛",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "100",
+    "name": "聖安代天府",
+    "district": "三民區",
+    "address": "高雄市三民區建武路102號",
+    "religion": "中壇元帥",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "101",
+    "name": "龍山寺",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區和德里中山路7號",
+    "religion": "觀音佛祖",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "102",
+    "name": "楠梓天后宮",
+    "district": "楠梓區",
+    "address": "高雄市楠梓區楠梓路1號",
+    "religion": "天上聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "103",
+    "name": "草衙朝陽寺",
+    "district": "前鎮區",
+    "address": "高雄市前鎮區草衙中街34號",
+    "religion": "觀音佛祖",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "104",
+    "name": "南聖宮",
+    "district": "苓雅區",
+    "address": "高雄市苓雅區建國一路328巷62號",
+    "religion": "天上聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "105",
+    "name": "萬應公廟(苓雅寮)",
+    "district": "苓雅區",
+    "address": "高雄市苓雅區永平路35號",
+    "religion": "聖公聖媽",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "106",
+    "name": "鎮南宮",
+    "district": "前鎮區",
+    "address": "高雄市前鎮區鎮旺街1號",
+    "religion": "文衡聖帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "107",
+    "name": "佛公天后宮",
+    "district": "前鎮區",
+    "address": "高雄市前鎮區天后街34號",
+    "religion": "天上聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "108",
+    "name": "三龍宮",
+    "district": "前鎮區",
+    "address": "高雄市前鎮區福民街45巷17號",
+    "religion": "三代祖師",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "109",
+    "name": "紅毛港濟天宮",
+    "district": "前鎮區",
+    "address": "高雄市前鎮區明鳳三路220號",
+    "religion": "張府尊王",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "110",
+    "name": "保安宮",
+    "district": "梓官區",
+    "address": "高雄市梓官區中正路230號",
+    "religion": "天上聖母",
+    "facility": "旋風集塵器"
+  },
+  {
+    "id": "111",
+    "name": "紅毛港朝天宮",
+    "district": "前鎮區",
+    "address": "高雄市前鎮區明鳳三路51號",
+    "religion": "天上聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "112",
+    "name": "梓官清進宮",
+    "district": "梓官區",
+    "address": "高雄市梓官區赤崁北路53號",
+    "religion": "清水祖師",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "113",
+    "name": "天龍宮",
+    "district": "前鎮區",
+    "address": "高雄市前鎮區明鳳三路216號",
+    "religion": "何府千歲",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "114",
+    "name": "南隆堂",
+    "district": "大寮區",
+    "address": "高雄市大寮區鳳林三路247巷68號",
+    "religion": "池府千歲",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "115",
+    "name": "明正堂",
+    "district": "前鎮區",
+    "address": "高雄市前鎮區興旺路416號",
+    "religion": "文海城隍",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "116",
+    "name": "南海清宮",
+    "district": "前鎮區",
+    "address": "高雄市前鎮區興旺路418號",
+    "religion": "閻羅天子",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "117",
+    "name": "赤崁赤慈宮",
+    "district": "梓官區",
+    "address": "高雄市梓官區赤崁南路72巷12號",
+    "religion": "天上聖母",
+    "facility": "旋風集塵器"
+  },
+  {
+    "id": "118",
+    "name": "朝天宮",
+    "district": "梓官區",
+    "address": "高雄市梓官區廣澤路55之1號",
+    "religion": "天上聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "119",
+    "name": "三民慈天宮",
+    "district": "三民區",
+    "address": "高雄市三民區建興路123巷37號",
+    "religion": "天上聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "120",
+    "name": "福德爺廟",
+    "district": "大樹區",
+    "address": "高雄市大樹區興田路150之6號",
+    "religion": "福德正神",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "121",
+    "name": "大南天福德祠",
+    "district": "田寮區",
+    "address": "高雄市田寮區崗安路107號",
+    "religion": "福德正神",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "122",
+    "name": "東林福德廟",
+    "district": "林園區",
+    "address": "高雄市林園區福興街48號",
+    "religion": "南天福德正神",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "123",
+    "name": "小港南天宮",
+    "district": "小港區",
+    "address": "高雄市小港區桂陽路175巷6弄44-1號",
+    "religion": "天上聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "124",
+    "name": "慈濟宮",
+    "district": "左營區",
+    "address": "高雄市左營區蓮潭路9號",
+    "religion": "保生大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "125",
+    "name": "左營元帝廟",
+    "district": "左營區",
+    "address": "高雄市左營區左營下路87號",
+    "religion": "北極玄天上帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "126",
+    "name": "清水寺",
+    "district": "林園區",
+    "address": "高雄市林園區清水岩路214號",
+    "religion": "觀世音菩薩",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "127",
+    "name": "碧慈宮",
+    "district": "永安區",
+    "address": "高雄市永安區保寧里保安路61號",
+    "religion": "三坪祖師",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "128",
+    "name": "前鎮三天宮",
+    "district": "前鎮區",
+    "address": "高雄市前鎮區興旺路420號",
+    "religion": "中壇元帥",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "129",
+    "name": "保生宮",
+    "district": "林園區",
+    "address": "高雄市林園區西溪里半廓路59號",
+    "religion": "保生大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "130",
+    "name": "高府元帥廟",
+    "district": "阿蓮區",
+    "address": "高雄市阿蓮區中正路141巷41弄12號",
+    "religion": "高府元帥",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "131",
+    "name": "北極殿",
+    "district": "苓雅區",
+    "address": "高雄市苓雅區興中二路18號",
+    "religion": "玄天上帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "132",
+    "name": "高雄意誠堂",
+    "district": "苓雅區",
+    "address": "高雄市苓雅區三多四路66號",
+    "religion": "關聖帝君",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "133",
+    "name": "高雄關帝廟",
+    "district": "苓雅區",
+    "address": "高雄市苓雅區武廟路52號",
+    "religion": "關聖帝君",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "134",
+    "name": "金鑾宮",
+    "district": "茄萣區",
+    "address": "高雄市茄萣區保定里港東街111號",
+    "religion": "天上聖母",
+    "facility": "旋風集塵器"
+  },
+  {
+    "id": "135",
+    "name": "保民宮",
+    "district": "鳥松區",
+    "address": "高雄市鳥松區民權路1號",
+    "religion": "保生大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "136",
+    "name": "玉湖宮代天府",
+    "district": "湖內區",
+    "address": "高雄市湖內區中山路一段496巷2號",
+    "religion": "保生大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "137",
+    "name": "大湖觀音亭",
+    "district": "湖內區",
+    "address": "高雄市湖內區民權路157號",
+    "religion": "觀世音菩薩",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "138",
+    "name": "天真福廟",
+    "district": "湖內區",
+    "address": "高雄市湖內區中山路1段496巷106之2號",
+    "religion": "盤古帝王",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "139",
+    "name": "高南東獄殿",
+    "district": "鼓山區",
+    "address": "高雄市鼓山區鼓山一路161巷7弄8號",
+    "religion": "東獄大帝",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "140",
+    "name": "龍泉宮",
+    "district": "鼓山區",
+    "address": "高雄市鼓山區青泉街106號",
+    "religion": "天上聖母",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "141",
+    "name": "代德宮",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區國慶九街25-1號",
+    "religion": "池府千歲",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "142",
+    "name": "南天太子宮",
+    "district": "美濃區",
+    "address": "高雄市美濃區廣林里廣九街195巷38號",
+    "religion": "關聖帝君",
+    "facility": "濕式洗滌塔"
+  },
+  {
+    "id": "143",
+    "name": "梓官紫雲堂大鵬鳥元帥廟",
+    "district": "梓官區",
+    "address": "高雄市梓官區梓官路大宅巷110號",
+    "religion": "大鵬鳥元帥",
+    "facility": "濕式洗滌塔"
+  }
+]
