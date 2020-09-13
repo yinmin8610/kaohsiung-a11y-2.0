@@ -297,3 +297,12 @@ $.ajax({
   }
 })
 
+//輪播圖
+var computer = document.getElementById("carouselComputer");
+var phone = document.getElementById("carouselPhone");
+var width = document.body.clientWidth
+if (width < 575) {
+  phone.classList.add("active");
+} else { 
+  computer.classList.add("active");
+}
