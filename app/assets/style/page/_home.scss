@@ -1,0 +1,12 @@
+.carousel{
+  &-img{
+    width: 140px;
+  }
+}
+@include media-breakpoint-down(sm) { 
+  .carousel{
+  &-img{
+    width: 80px;
+  }
+}
+}
