@@ -266,7 +266,7 @@ $(".navbar-nav .nav-item").hover(function () {
 }); //寺廟資訊
 
 $.ajax({
-  url: "../templeInfo.json",
+  url: "./templeInfo.json",
   type: "GET",
   dataType: "json",
   success: function success(data) {
