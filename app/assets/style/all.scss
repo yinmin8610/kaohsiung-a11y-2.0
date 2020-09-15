@@ -1,8 +1,12 @@
 @import "functions";
 @import "./helpers/variables";
 @import "bootstrap";
-@import "base";
 @import "swiper";
+@import "node_modules/swiper/components/a11y/a11y.scss";
+@import "node_modules/swiper/components/navigation/navigation.scss";
+@import "node_modules/swiper/components/pagination/pagination.scss";
+
+@import "base";
 
 // page
 @import "./page/worship";
