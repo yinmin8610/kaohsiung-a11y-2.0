@@ -337,25 +337,25 @@ $.ajax({
     const templeData = data;
     let cacheDistrict = [];
     let option = '';
-   
+
 
     if (districtSelect) {
       templeData.forEach(item => {
         cacheDistrict.push(item.district);
       })
 
-    
+
       //篩選相同的地區
       const templeDistrict = cacheDistrict.filter((item, index, arr) => {
         return arr.indexOf(item) === index;
       });
-  
+
       //把地區資料塞進 select
       templeDistrict.forEach(item => {
         option += `<option value="${item}">${item}</option>`;
       })
       districtSelect.innerHTML = `<option selected disabled>請選擇行政區</option>${option}`;
-    
+
 
 
 
@@ -385,11 +385,16 @@ $.ajax({
   }
 })
 
+//阻止Bootstrap Carousel自動播放
+$('.carousel').carousel({
+  interval: false
+})
+
 //swiper
 const swiper = new Swiper('.swiper-container', {
   slidesPerView: 2,
-  spaceBetween: 30,
-  slidesPerGroup: 3,
+  spaceBetween: 100,
+  slidesPerGroup: 5,
   loop: true,
   loopFillGroupWithBlank: true,
   pagination: {
@@ -401,14 +406,21 @@ const swiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev',
   },
   breakpoints: {
-    960:{
+    960: {
       slidesPerView: 5
     },
     760: {
-        slidesPerView: 4
+      slidesPerView: 4
     },
     540: {
-        slidesPerView: 3
+      slidesPerView: 3
     }
-}
+  },
+  a11y: {
+    prevSlideMessage: '上一張',
+    nextSlideMessage: '下一張',
+    paginationBulletMessage: '前進到第{{index}}張',
+    firstSlideMessage: '第一張',
+    lastSlideMessage: '最後一張',
+  },
 });
