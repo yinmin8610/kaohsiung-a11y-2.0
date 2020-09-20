@@ -6,7 +6,7 @@ current: worshipShuwen
 ---
 
 <div class="container">
-  <h1 class="my-5 border-width pl-3">線上祭拜</h1>
+  <h1 class="my-5 border-width pl-3">線上祭拜<span class="h4"><a id="maincontent" href="#" title="中央主要內容區" accesskey="C">:::</a></span></h1>
 
   <div class="row justify-content-center">
     <div class="col-11 col-sm-8 pl-0 pl-sm-3 mr-3 mr-sm-0">
@@ -54,9 +54,18 @@ current: worshipShuwen
     <div class="col-9">
       <h5 class="ml-sm-5 pl-sm-3 py-5">
         步驟四：請默念疏文
-        <button type="button" class="btn btn-outline-primary d-none">
+        <button type="button" class="btn btn-outline-primary">
           播放語音
         </button>
+        <audio id="audio1" controls>
+          <source id="s" src="/app/assets/file/shuwen.wma" type="audio/wma"  title="Little Hoot Theme Song" />
+        </audio>
+        <audio id="audio1" controls>
+          <source id="s" src="./assets/file/shuwen.mp3" type="audio/mp3"  title="Little Hoot Theme Song" />
+        </audio>
+        <audio id="audio1" controls>
+          <source id="s" src="https://s3-ap-northeast-1.amazonaws.com/dazedbear-assets/Bluebird.mp3" type="audio/mp3"  title="Little Hoot Theme Song" />
+        </audio>
       </h5>
 
       <ul class="ml-sm-5 pl-sm-3">

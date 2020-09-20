@@ -4,21 +4,71 @@ if (btnStepOne) {
   btnStepOne.addEventListener('click', getStepOne, false);
   function getStepOne(e) {
     e.preventDefault();
-    var name = document.getElementById("userName").value;
-    var companyName = document.getElementById("companyName").value;
-    var address = document.getElementById("userAddress").value;
+    var name = document.getElementById("userName");
+    var companyName = document.getElementById("companyName");
+    var address = document.getElementById("userAddress");
+    //無障礙提示
+    if (name.value === "" && companyName.value === "" && address.value === "") {
+      name.classList.add("is-invalid");
+      companyName.classList.add("is-invalid");
+      address.classList.add("is-invalid");
+    } else if(name.value !== "" && companyName.value === "" && address.value === "") {
+      name.classList.add("is-valid");
+      name.classList.remove("is-invalid");
+      companyName.classList.add("is-invalid");
+      address.classList.add("is-invalid");
+    } else if (name.value === "" && companyName.value !== "" && address.value === "") {
+      name.classList.add("is-invalid");
+      companyName.classList.add("is-valid");
+      companyName.classList.remove("is-invalid");
+      address.classList.add("is-invalid");
+    } else if (name.value === "" && companyName.value === "" && address.value !== "") {
+      name.classList.add("is-invalid");
+      companyName.classList.add("is-invalid");
+      address.classList.add("is-valid");
+      address.classList.remove("is-invalid");
+    } else if (name.value !== "" && companyName.value !== "" && address.value === "") {
+      name.classList.add("is-valid");
+      name.classList.remove("is-invalid");
+      companyName.classList.add("is-valid");
+      companyName.classList.remove("is-invalid");
+      address.classList.add("is-invalid");
+    } else if (name.value === "" && companyName.value !== "" && address.value !== "") {
+      name.classList.add("is-invalid");
+      companyName.classList.add("is-valid");
+      companyName.classList.remove("is-invalid");
+      address.classList.add("is-valid");
+      address.classList.remove("is-invalid");
+    } else if (name.value !== "" && companyName.value === "" && address.value !== "") {
+      name.classList.add("is-valid");
+      name.classList.remove("is-invalid");
+      companyName.classList.add("is-invalid");
+      address.classList.add("is-valid");
+      address.classList.remove("is-invalid");
+    } else if (name.value !== "" && companyName.value !== "" && address.value !== "") {
+      name.classList.add("is-valid");
+      name.classList.remove("is-invalid");
+      companyName.classList.add("is-valid");
+      companyName.classList.remove("is-invalid");
+      address.classList.add("is-valid");
+      address.classList.remove("is-invalid");
+    }
+
     // 判斷是否為空值
-    if (name === "") {
+    if (name.value === "") {
       alert('請輸入姓名');
-    } else if (companyName === "") {
+      
+    } else if (companyName.value === "") {
       alert('請輸入公司名稱');
-    } else if (address === "") {
+      
+    } else if (address.value === "") {
       alert('請輸入地址');
-    } else if (name && companyName && address) {
+      
+    } else if (name.value && companyName.value && address.value) {
       var data = {
-        "name": name,
-        "companyName": companyName,
-        "address": address
+        "name": name.value,
+        "companyName": companyName.value,
+        "address": address.value
       }
       localStorage.setItem('worshipUserInfo', JSON.stringify(data));
       document.location.href = "./worshipChooseOfferings.html";
@@ -154,6 +204,44 @@ if (btnStepTwo) {
       localStorage.setItem('checkbox_flower', 'flower');
     }
     if (count === 0) {
+      // document.querySelector(`[for='apple']`).classList.add("border");
+      // document.querySelector(`[for='apple']`).classList.add("border-primary");
+      // document.querySelector(`[for='apple']`).classList.add("bg-babyPrimary");
+      // document.querySelector(`[for='orange']`).classList.add("border");
+      // document.querySelector(`[for='orange']`).classList.add("border-primary");
+      // document.querySelector(`[for='orange']`).classList.add("bg-babyPrimary");
+      // document.querySelector(`[for='banana']`).classList.add("border");
+      // document.querySelector(`[for='banana']`).classList.add("border-primary");
+      // document.querySelector(`[for='banana']`).classList.add("bg-babyPrimary");
+      // document.querySelector(`[for='grape']`).classList.add("border");
+      // document.querySelector(`[for='grape']`).classList.add("border-primary");
+      // document.querySelector(`[for='grape']`).classList.add("bg-babyPrimary");
+      // document.querySelector(`[for='threeAnimals']`).classList.add("border");
+      // document.querySelector(`[for='threeAnimals']`).classList.add("border-primary");
+      // document.querySelector(`[for='threeAnimals']`).classList.add("bg-babyPrimary");
+      // document.querySelector(`[for='flower']`).classList.add("border");
+      // document.querySelector(`[for='flower']`).classList.add("border-primary");
+      // document.querySelector(`[for='flower']`).classList.add("bg-babyPrimary");
+      // setTimeout(() => {
+      //   document.querySelector(`[for='apple']`).classList.remove("border");
+      //   document.querySelector(`[for='apple']`).classList.remove("border-primary");
+      //   document.querySelector(`[for='apple']`).classList.remove("bg-babyPrimary");
+      //   document.querySelector(`[for='orange']`).classList.remove("border");
+      //   document.querySelector(`[for='orange']`).classList.remove("border-primary");
+      //   document.querySelector(`[for='orange']`).classList.remove("bg-babyPrimary");
+      //   document.querySelector(`[for='banana']`).classList.remove("border");
+      //   document.querySelector(`[for='banana']`).classList.remove("border-primary");
+      //   document.querySelector(`[for='banana']`).classList.remove("bg-babyPrimary");
+      //   document.querySelector(`[for='grape']`).classList.remove("border");
+      //   document.querySelector(`[for='grape']`).classList.remove("border-primary");
+      //   document.querySelector(`[for='grape']`).classList.remove("bg-babyPrimary");
+      //   document.querySelector(`[for='threeAnimals']`).classList.remove("border");
+      //   document.querySelector(`[for='threeAnimals']`).classList.remove("border-primary");
+      //   document.querySelector(`[for='threeAnimals']`).classList.remove("bg-babyPrimary");
+      //   document.querySelector(`[for='flower']`).classList.remove("border");
+      //   document.querySelector(`[for='flower']`).classList.remove("border-primary");
+      //   document.querySelector(`[for='flower']`).classList.remove("bg-babyPrimary");
+      // }, 3000);
       alert('請選擇祭品');
       return;
     }
