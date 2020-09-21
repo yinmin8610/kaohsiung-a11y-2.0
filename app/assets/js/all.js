@@ -52,19 +52,7 @@ if (btnStepOne) {
       companyName.classList.remove("is-invalid");
       address.classList.add("is-valid");
       address.classList.remove("is-invalid");
-    }
-
-    // 判斷是否為空值
-    if (name.value === "") {
-      alert('請輸入姓名');
       
-    } else if (companyName.value === "") {
-      alert('請輸入公司名稱');
-      
-    } else if (address.value === "") {
-      alert('請輸入地址');
-      
-    } else if (name.value && companyName.value && address.value) {
       var data = {
         "name": name.value,
         "companyName": companyName.value,
@@ -77,7 +65,7 @@ if (btnStepOne) {
 }
 
 
-// 步驟二
+// 步驟二 toggleClass、push
 var apple = document.getElementById("apple");
 var orange = document.getElementById("orange");
 var banana = document.getElementById("banana");
@@ -241,8 +229,8 @@ if (btnStepTwo) {
       //   document.querySelector(`[for='flower']`).classList.remove("border");
       //   document.querySelector(`[for='flower']`).classList.remove("border-primary");
       //   document.querySelector(`[for='flower']`).classList.remove("bg-babyPrimary");
-      // }, 3000);
-      alert('請選擇祭品');
+      // }, 1000);
+      // alert('請選擇祭品');
       return;
     }
     document.location.href = "./worship.html";

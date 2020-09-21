@@ -5,24 +5,30 @@ engine: ejs
 current: information_1071128
 ---
 
-<div class="container">
+<div class="content container">
+
   <!-- 麵包屑 -->
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb my-4">
-      <li class="breadcrumb-item h6"><a href="index.html" class="text-dark">首頁</a></li>
-      <li class="breadcrumb-item h6"><a href="information.html" class="text-dark">訊息專區</a></li>
-      <li class="breadcrumb-item h6"><a href="informationNews.html" class="text-dark">最新消息</a></li>
-      <li class="breadcrumb-item h6"><a href="informationNews_107.html" class="text-dark">107 年度</a></li>
-      <li class="breadcrumb-item active h6" aria-current="page">環保與文化衝突 — 空污與民俗的翻雲覆雨</li>
+  <nav aria-label="breadcrumb" class="my-4">
+    <div id="tabC">
+      <a id="accesskey-main" href="#" title="中央主要內容區" accesskey="C">:::</a>
+    </div>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item h6"><a href="index.html" class="text-dark" title="首頁">首頁</a></li>
+      <li class="breadcrumb-item h6"><a href="information.html" class="text-dark" title="訊息專區">訊息專區</a></li>
+      <li class="breadcrumb-item h6"><a href="informationNews.html" class="text-dark" title="最新消息">最新消息</a></li>
+      <li class="breadcrumb-item h6"><a href="informationNews_107.html" class="text-dark" title="107 年度">107 年度</a></li>
+      <li class="breadcrumb-item active h6" aria-current="page" title="新聞標題">環保與文化衝突 — 空污與民俗的翻雲覆雨</li>
     </ol>
   </nav>
 
+  <!-- 標題 -->
   <h1 class="border-width mt-5 pl-3">環保與文化衝突 — 空污與民俗的翻雲覆雨</h1>
   <p><small>更新日期：107.11.28</small></p>
 
+  <!-- 主要內容 -->
   <div class="row my-5">
-    <!-- 左欄 -->
-    <div class="col-md-8">
+    <!-- 新聞內文 -->
+    <section class="col-md-8">
       <p>
         台灣民俗文化中香金占有極大地位，但隨著環保意識的高漲與政府積極推動減香政策，孰料減香謠傳成了「滅香」，引發宮廟串連發動「眾神上凱道」，抗議政府干涉信仰。環保署為此發表聲明，強調尊重信仰文化，只會減量，絕不會滅香。儘管眾神上凱道和平收場，但民俗信仰與環保間的衝突卻未曾停歇。
       </p>
@@ -34,7 +40,7 @@ current: information_1071128
         而減香政策中最被民俗學者批判的一點，莫過於香金燃燒並非日常污染源，且依據環保署 TEDS9.0《空氣污染排放清冊》顯示，紙錢燃放污染量在 PM2.5 排放總量比例中<strong>僅占 0.6%</strong>，相較於占據較多比例的工廠與汽機車 PM2.5 排放量來說簡直小巫見大巫。
       </p>
       <p>
-        只是每當遇到大型宗教活動，空氣品質就非常容易紫爆，正常空氣品質中的 PM2.5 應在<strong>35 微克以下</strong>，以大甲媽祖遶境為例，環保局現場測到的 PM2.5 竟<strong>高達 2000-3000 微克</strong>，遠超於正常值千倍以上。香金燃燒在整體的空污排放量中比例占據雖少，但因燃放空間多在密閉或半開放式空間中，因此很容易有「紫爆」的情形。以龍山寺為例，儘管龍山寺已實施減香封爐等政策，環保局實測廟內 PM2.5 卻仍<strong>高達 100 多微克</strong>。
+        只是每當遇到大型宗教活動，空氣品質就非常容易紫爆，正常空氣品質中的 PM2.5 應在<strong> 35 微克以下</strong>，以大甲媽祖遶境為例，環保局現場測到的 PM2.5 竟<strong>高達 2000-3000 微克</strong>，遠超於正常值千倍以上。香金燃燒在整體的空污排放量中比例占據雖少，但因燃放空間多在密閉或半開放式空間中，因此很容易有「紫爆」的情形。以龍山寺為例，儘管龍山寺已實施減香封爐等政策，環保局實測廟內 PM2.5 卻仍<strong>高達 100 多微克</strong>。
       </p>
       <p>
         對此環保署空保處處長蔡鴻德表示，環保署有義務保障民眾所呼吸的空氣品質，讓民眾得以在乾淨的空氣中呼吸，同時保護民眾的健康。減香最主要的目的為維護民眾的生活尺度，提高民眾的生活品質，對於 PM2.5 排放量相對較高的汽機車與工廠，環保署本來就有在管，不是只針對香金。
@@ -50,8 +56,8 @@ current: information_1071128
         蔡鴻德強調不可能完全滅香，對於減香應至何種程度他表示「都還可以再減，都還有空間再減。」不少宮廟對於「一爐一炷」的政策都有共識，推行上並無太大困難。往後會開始鼓勵宮廟能夠增加香金處理設備，如增設 PM2.5 感應器與改善金爐設備，並建議能夠將金紙集中處理。設備增設的部分還是希望由廟方來做，政府方面會盡量協助，但補助的部分仍待討論。對於以米代金、以功代金等替代措施，蔡鴻德說「宗教最主要講究迴向，多做功德才能有迴向，不一定要燒金紙。」他也呼籲，對於燒金紙「該有的還是會有，不會強制宮廟一定要跟進，也不可能用這個廟一定要減量到多少量來規範。」。
       </p>
       <a href="http://shuj.shu.edu.tw/blog/2018/05/25/%E7%92%B0%E4%BF%9D%E8%88%87%E6%96%87%E5%8C%96%E8%A1%9D%E7%AA%81-%E7%A9%BA%E6%B1%A1%E8%88%87%E6%B0%91%E4%BF%97%E7%9A%84%E7%BF%BB%E9%9B%B2%E8%A6%86%E9%9B%A8/" target="_blank" title="另開分頁，前往文獻來源" class="mt-5"><strong>文獻來源</strong></a>
-    </div>
-    <!-- 右欄 -->
-    <div class="col-md-4"></div>
+    </section>
+    <!-- 預留空白處 -->
+    <section class="col-md-4"></section>
   </div>
 </div>
