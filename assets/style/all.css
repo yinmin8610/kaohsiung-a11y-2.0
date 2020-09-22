@@ -11142,7 +11142,7 @@ a.text-babyPrimary:hover, a.text-babyPrimary:focus {
 }
 
 :root {
-  --swiper-theme-color: #D2440D;
+  --swiper-theme-color: #007aff;
 }
 
 .swiper-container {
@@ -11737,8 +11737,8 @@ body {
   color: #5C4E44;
 }
 
-.min-h {
-  min-height: 650px;
+.content {
+  min-height: calc(100vh - 112px - 258px);
 }
 
 .border-width {
@@ -11882,6 +11882,16 @@ body {
 
 .bg-worship {
   background-image: url(../../assets/images/worship.gif);
+}
+
+.a {
+  -webkit-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.b {
+  opacity: 0;
 }
 
 @media (max-width: 991.98px) {

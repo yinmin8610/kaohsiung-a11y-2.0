@@ -6,21 +6,58 @@ var btnStepOne = document.getElementById('stepOne');
 if (btnStepOne) {
   var getStepOne = function getStepOne(e) {
     e.preventDefault();
-    var name = document.getElementById("userName").value;
-    var companyName = document.getElementById("companyName").value;
-    var address = document.getElementById("userAddress").value; // 判斷是否為空值
+    var name = document.getElementById("userName");
+    var companyName = document.getElementById("companyName");
+    var address = document.getElementById("userAddress"); //無障礙提示
 
-    if (name === "") {
-      alert('請輸入姓名');
-    } else if (companyName === "") {
-      alert('請輸入公司名稱');
-    } else if (address === "") {
-      alert('請輸入地址');
-    } else if (name && companyName && address) {
+    if (name.value === "" && companyName.value === "" && address.value === "") {
+      name.classList.add("is-invalid");
+      companyName.classList.add("is-invalid");
+      address.classList.add("is-invalid");
+    } else if (name.value !== "" && companyName.value === "" && address.value === "") {
+      name.classList.add("is-valid");
+      name.classList.remove("is-invalid");
+      companyName.classList.add("is-invalid");
+      address.classList.add("is-invalid");
+    } else if (name.value === "" && companyName.value !== "" && address.value === "") {
+      name.classList.add("is-invalid");
+      companyName.classList.add("is-valid");
+      companyName.classList.remove("is-invalid");
+      address.classList.add("is-invalid");
+    } else if (name.value === "" && companyName.value === "" && address.value !== "") {
+      name.classList.add("is-invalid");
+      companyName.classList.add("is-invalid");
+      address.classList.add("is-valid");
+      address.classList.remove("is-invalid");
+    } else if (name.value !== "" && companyName.value !== "" && address.value === "") {
+      name.classList.add("is-valid");
+      name.classList.remove("is-invalid");
+      companyName.classList.add("is-valid");
+      companyName.classList.remove("is-invalid");
+      address.classList.add("is-invalid");
+    } else if (name.value === "" && companyName.value !== "" && address.value !== "") {
+      name.classList.add("is-invalid");
+      companyName.classList.add("is-valid");
+      companyName.classList.remove("is-invalid");
+      address.classList.add("is-valid");
+      address.classList.remove("is-invalid");
+    } else if (name.value !== "" && companyName.value === "" && address.value !== "") {
+      name.classList.add("is-valid");
+      name.classList.remove("is-invalid");
+      companyName.classList.add("is-invalid");
+      address.classList.add("is-valid");
+      address.classList.remove("is-invalid");
+    } else if (name.value !== "" && companyName.value !== "" && address.value !== "") {
+      name.classList.add("is-valid");
+      name.classList.remove("is-invalid");
+      companyName.classList.add("is-valid");
+      companyName.classList.remove("is-invalid");
+      address.classList.add("is-valid");
+      address.classList.remove("is-invalid");
       var data = {
-        "name": name,
-        "companyName": companyName,
-        "address": address
+        "name": name.value,
+        "companyName": companyName.value,
+        "address": address.value
       };
       localStorage.setItem('worshipUserInfo', JSON.stringify(data));
       document.location.href = "./worshipChooseOfferings.html";
@@ -28,7 +65,7 @@ if (btnStepOne) {
   };
 
   btnStepOne.addEventListener('click', getStepOne, false);
-} // 步驟二
+} // 步驟二 toggleClass、push
 
 
 var apple = document.getElementById("apple");
@@ -169,7 +206,45 @@ if (btnStepTwo) {
     }
 
     if (count === 0) {
-      alert('請選擇祭品');
+      // document.querySelector(`[for='apple']`).classList.add("border");
+      // document.querySelector(`[for='apple']`).classList.add("border-primary");
+      // document.querySelector(`[for='apple']`).classList.add("bg-babyPrimary");
+      // document.querySelector(`[for='orange']`).classList.add("border");
+      // document.querySelector(`[for='orange']`).classList.add("border-primary");
+      // document.querySelector(`[for='orange']`).classList.add("bg-babyPrimary");
+      // document.querySelector(`[for='banana']`).classList.add("border");
+      // document.querySelector(`[for='banana']`).classList.add("border-primary");
+      // document.querySelector(`[for='banana']`).classList.add("bg-babyPrimary");
+      // document.querySelector(`[for='grape']`).classList.add("border");
+      // document.querySelector(`[for='grape']`).classList.add("border-primary");
+      // document.querySelector(`[for='grape']`).classList.add("bg-babyPrimary");
+      // document.querySelector(`[for='threeAnimals']`).classList.add("border");
+      // document.querySelector(`[for='threeAnimals']`).classList.add("border-primary");
+      // document.querySelector(`[for='threeAnimals']`).classList.add("bg-babyPrimary");
+      // document.querySelector(`[for='flower']`).classList.add("border");
+      // document.querySelector(`[for='flower']`).classList.add("border-primary");
+      // document.querySelector(`[for='flower']`).classList.add("bg-babyPrimary");
+      // setTimeout(() => {
+      //   document.querySelector(`[for='apple']`).classList.remove("border");
+      //   document.querySelector(`[for='apple']`).classList.remove("border-primary");
+      //   document.querySelector(`[for='apple']`).classList.remove("bg-babyPrimary");
+      //   document.querySelector(`[for='orange']`).classList.remove("border");
+      //   document.querySelector(`[for='orange']`).classList.remove("border-primary");
+      //   document.querySelector(`[for='orange']`).classList.remove("bg-babyPrimary");
+      //   document.querySelector(`[for='banana']`).classList.remove("border");
+      //   document.querySelector(`[for='banana']`).classList.remove("border-primary");
+      //   document.querySelector(`[for='banana']`).classList.remove("bg-babyPrimary");
+      //   document.querySelector(`[for='grape']`).classList.remove("border");
+      //   document.querySelector(`[for='grape']`).classList.remove("border-primary");
+      //   document.querySelector(`[for='grape']`).classList.remove("bg-babyPrimary");
+      //   document.querySelector(`[for='threeAnimals']`).classList.remove("border");
+      //   document.querySelector(`[for='threeAnimals']`).classList.remove("border-primary");
+      //   document.querySelector(`[for='threeAnimals']`).classList.remove("bg-babyPrimary");
+      //   document.querySelector(`[for='flower']`).classList.remove("border");
+      //   document.querySelector(`[for='flower']`).classList.remove("border-primary");
+      //   document.querySelector(`[for='flower']`).classList.remove("bg-babyPrimary");
+      // }, 1000);
+      // alert('請選擇祭品');
       return;
     }
 
@@ -306,12 +381,16 @@ $.ajax({
       districtSelect.addEventListener('change', changeInfo, false);
     }
   }
+}); //阻止Bootstrap Carousel自動播放
+
+$('.carousel').carousel({
+  interval: false
 }); //swiper
 
 var swiper = new Swiper('.swiper-container', {
   slidesPerView: 2,
-  spaceBetween: 30,
-  slidesPerGroup: 3,
+  spaceBetween: 100,
+  slidesPerGroup: 5,
   loop: true,
   loopFillGroupWithBlank: true,
   pagination: {
@@ -332,6 +411,13 @@ var swiper = new Swiper('.swiper-container', {
     540: {
       slidesPerView: 3
     }
+  },
+  a11y: {
+    prevSlideMessage: '上一張',
+    nextSlideMessage: '下一張',
+    paginationBulletMessage: '前進到第{{index}}張',
+    firstSlideMessage: '第一張',
+    lastSlideMessage: '最後一張'
   }
 });
 //# sourceMappingURL=all.js.map
