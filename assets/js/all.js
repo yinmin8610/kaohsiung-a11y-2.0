@@ -65,225 +65,53 @@ if (btnStepOne) {
   };
 
   btnStepOne.addEventListener('click', getStepOne, false);
-} // 步驟二 toggleClass、push
+} // 步驟二
 
 
-var apple = document.getElementById("apple");
-var orange = document.getElementById("orange");
-var banana = document.getElementById("banana");
-var grape = document.getElementById("grape");
-var threeAnimals = document.getElementById("threeAnimals");
-var flower = document.getElementById("flower"); // 監聽 checkbox 點選事件
+var arr = []; // 監聽 checkbox 點選事件
 
-if (apple) {
-  apple.checked == true;
-  apple.addEventListener('click', getChecked, false);
-}
+$(document).on('change', '.checkbox', function () {
+  $(this).closest('label').toggleClass('border border-primary bg-babyPrimary');
+  var id = $(this).data("id");
 
-if (orange) {
-  orange.checked == true;
-  orange.addEventListener('click', getChecked, false);
-}
-
-if (banana) {
-  banana.checked == true;
-  banana.addEventListener('click', getChecked, false);
-}
-
-if (grape) {
-  grape.checked == true;
-  grape.addEventListener('click', getChecked, false);
-}
-
-if (threeAnimals) {
-  threeAnimals.checked == true;
-  threeAnimals.addEventListener('click', getChecked, false);
-}
-
-if (flower) {
-  flower.checked == true;
-  flower.addEventListener('click', getChecked, false);
-}
-
-function getChecked() {
-  if (apple.checked == true) {
-    document.querySelector("[for='apple']").classList.add("border");
-    document.querySelector("[for='apple']").classList.add("border-primary");
-    document.querySelector("[for='apple']").classList.add("bg-babyPrimary");
+  if ($(this).is(":checked")) {
+    arr.push(id);
   } else {
-    document.querySelector("[for='apple']").classList.remove("border");
-    document.querySelector("[for='apple']").classList.remove("border-primary");
-    document.querySelector("[for='apple']").classList.remove("bg-babyPrimary");
+    var cache = arr.filter(function (item) {
+      return item != id;
+    });
+    arr = cache;
   }
-
-  if (orange.checked == true) {
-    document.querySelector("[for='orange']").classList.add("border");
-    document.querySelector("[for='orange']").classList.add("border-primary");
-    document.querySelector("[for='orange']").classList.add("bg-babyPrimary");
-  } else {
-    document.querySelector("[for='orange']").classList.remove("border");
-    document.querySelector("[for='orange']").classList.remove("border-primary");
-    document.querySelector("[for='orange']").classList.remove("bg-babyPrimary");
-  }
-
-  if (banana.checked == true) {
-    document.querySelector("[for='banana']").classList.add("border");
-    document.querySelector("[for='banana']").classList.add("border-primary");
-    document.querySelector("[for='banana']").classList.add("bg-babyPrimary");
-  } else {
-    document.querySelector("[for='banana']").classList.remove("border");
-    document.querySelector("[for='banana']").classList.remove("border-primary");
-    document.querySelector("[for='banana']").classList.remove("bg-babyPrimary");
-  }
-
-  if (grape.checked == true) {
-    document.querySelector("[for='grape']").classList.add("border");
-    document.querySelector("[for='grape']").classList.add("border-primary");
-    document.querySelector("[for='grape']").classList.add("bg-babyPrimary");
-  } else {
-    document.querySelector("[for='grape']").classList.remove("border");
-    document.querySelector("[for='grape']").classList.remove("border-primary");
-    document.querySelector("[for='grape']").classList.remove("bg-babyPrimary");
-  }
-
-  if (threeAnimals.checked == true) {
-    document.querySelector("[for='threeAnimals']").classList.add("border");
-    document.querySelector("[for='threeAnimals']").classList.add("border-primary");
-    document.querySelector("[for='threeAnimals']").classList.add("bg-babyPrimary");
-  } else {
-    document.querySelector("[for='threeAnimals']").classList.remove("border");
-    document.querySelector("[for='threeAnimals']").classList.remove("border-primary");
-    document.querySelector("[for='threeAnimals']").classList.remove("bg-babyPrimary");
-  }
-
-  if (flower.checked == true) {
-    document.querySelector("[for='flower']").classList.add("border");
-    document.querySelector("[for='flower']").classList.add("border-primary");
-    document.querySelector("[for='flower']").classList.add("bg-babyPrimary");
-  } else {
-    document.querySelector("[for='flower']").classList.remove("border");
-    document.querySelector("[for='flower']").classList.remove("border-primary");
-    document.querySelector("[for='flower']").classList.remove("bg-babyPrimary");
-  }
-} // 監聽點選下一步事件
-
+}); // 監聽點選下一步事件
 
 var btnStepTwo = document.getElementById('stepTwo');
-var count = 0; // 計算被點選的祭品數目
 
 if (btnStepTwo) {
   var getStepTwo = function getStepTwo(e) {
-    e.preventDefault(); // 判斷是否為空值
+    e.preventDefault();
 
-    if (apple.checked == true) {
-      count++;
-      localStorage.setItem('checkbox_apple', 'apple');
+    if (arr.length === 0) {
+      arr.push("apple");
+      localStorage.setItem('checkbox_object', JSON.stringify(arr));
+      document.location.href = "./worship.html";
     }
 
-    if (orange.checked == true) {
-      count++;
-      localStorage.setItem('checkbox_orange', 'orange');
+    if (arr.length > 0) {
+      localStorage.setItem('checkbox_object', JSON.stringify(arr));
+      document.location.href = "./worship.html";
     }
-
-    if (banana.checked == true) {
-      count++;
-      localStorage.setItem('checkbox_banana', 'banana');
-    }
-
-    if (grape.checked == true) {
-      count++;
-      localStorage.setItem('checkbox_grape', 'grape');
-    }
-
-    if (threeAnimals.checked == true) {
-      count++;
-      localStorage.setItem('checkbox_threeAnimals', 'threeAnimals');
-    }
-
-    if (flower.checked == true) {
-      count++;
-      localStorage.setItem('checkbox_flower', 'flower');
-    }
-
-    if (count === 0) {
-      // document.querySelector(`[for='apple']`).classList.add("border");
-      // document.querySelector(`[for='apple']`).classList.add("border-primary");
-      // document.querySelector(`[for='apple']`).classList.add("bg-babyPrimary");
-      // document.querySelector(`[for='orange']`).classList.add("border");
-      // document.querySelector(`[for='orange']`).classList.add("border-primary");
-      // document.querySelector(`[for='orange']`).classList.add("bg-babyPrimary");
-      // document.querySelector(`[for='banana']`).classList.add("border");
-      // document.querySelector(`[for='banana']`).classList.add("border-primary");
-      // document.querySelector(`[for='banana']`).classList.add("bg-babyPrimary");
-      // document.querySelector(`[for='grape']`).classList.add("border");
-      // document.querySelector(`[for='grape']`).classList.add("border-primary");
-      // document.querySelector(`[for='grape']`).classList.add("bg-babyPrimary");
-      // document.querySelector(`[for='threeAnimals']`).classList.add("border");
-      // document.querySelector(`[for='threeAnimals']`).classList.add("border-primary");
-      // document.querySelector(`[for='threeAnimals']`).classList.add("bg-babyPrimary");
-      // document.querySelector(`[for='flower']`).classList.add("border");
-      // document.querySelector(`[for='flower']`).classList.add("border-primary");
-      // document.querySelector(`[for='flower']`).classList.add("bg-babyPrimary");
-      // setTimeout(() => {
-      //   document.querySelector(`[for='apple']`).classList.remove("border");
-      //   document.querySelector(`[for='apple']`).classList.remove("border-primary");
-      //   document.querySelector(`[for='apple']`).classList.remove("bg-babyPrimary");
-      //   document.querySelector(`[for='orange']`).classList.remove("border");
-      //   document.querySelector(`[for='orange']`).classList.remove("border-primary");
-      //   document.querySelector(`[for='orange']`).classList.remove("bg-babyPrimary");
-      //   document.querySelector(`[for='banana']`).classList.remove("border");
-      //   document.querySelector(`[for='banana']`).classList.remove("border-primary");
-      //   document.querySelector(`[for='banana']`).classList.remove("bg-babyPrimary");
-      //   document.querySelector(`[for='grape']`).classList.remove("border");
-      //   document.querySelector(`[for='grape']`).classList.remove("border-primary");
-      //   document.querySelector(`[for='grape']`).classList.remove("bg-babyPrimary");
-      //   document.querySelector(`[for='threeAnimals']`).classList.remove("border");
-      //   document.querySelector(`[for='threeAnimals']`).classList.remove("border-primary");
-      //   document.querySelector(`[for='threeAnimals']`).classList.remove("bg-babyPrimary");
-      //   document.querySelector(`[for='flower']`).classList.remove("border");
-      //   document.querySelector(`[for='flower']`).classList.remove("border-primary");
-      //   document.querySelector(`[for='flower']`).classList.remove("bg-babyPrimary");
-      // }, 1000);
-      // alert('請選擇祭品');
-      return;
-    }
-
-    document.location.href = "./worship.html";
   };
 
   btnStepTwo.addEventListener('click', getStepTwo, false);
 } // 步驟三
 
 
-var checkbox_apple = localStorage.getItem('checkbox_apple');
-var checkbox_orange = localStorage.getItem('checkbox_orange');
-var checkbox_banana = localStorage.getItem('checkbox_banana');
-var checkbox_grape = localStorage.getItem('checkbox_grape');
-var checkbox_threeAnimals = localStorage.getItem('checkbox_threeAnimals');
-var checkbox_flower = localStorage.getItem('checkbox_flower'); // 判斷是否開啟圖片
+var getArr = JSON.parse(localStorage.getItem('checkbox_object')); // 顯示圖片
 
-if (checkbox_apple === 'apple' && document.querySelector('#appleImg')) {
-  document.querySelector('#appleImg').classList.add("d-block");
-}
-
-if (checkbox_orange === 'orange' && document.querySelector('#orangeImg')) {
-  document.querySelector('#orangeImg').classList.add("d-block");
-}
-
-if (checkbox_banana === 'banana' && document.querySelector('#bananaImg')) {
-  document.querySelector('#bananaImg').classList.add("d-block");
-}
-
-if (checkbox_grape === 'grape' && document.querySelector('#grapeImg')) {
-  document.querySelector('#grapeImg').classList.add("d-block");
-}
-
-if (checkbox_threeAnimals === 'threeAnimals' && document.querySelector('#threeAnimalsImg')) {
-  document.querySelector('#threeAnimalsImg').classList.add("d-block");
-}
-
-if (checkbox_flower === 'flower' && document.querySelector('#flowerImg')) {
-  document.querySelector('#flowerImg').classList.add("d-block");
+if (location.pathname === '/worship.html') {
+  getArr.forEach(function (item) {
+    return document.querySelector("[data-img=\"".concat(item, "\"]")).classList.add("d-block");
+  });
 } // 監聽點選下一步事件
 
 

@@ -11809,7 +11809,7 @@ body {
 @media (max-width: 991.98px) {
   .navbar-title,
   .navbar-title span {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 
@@ -11916,20 +11916,10 @@ body {
     width: 20px;
   }
   .worship-thanks-text {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .bg {
     height: 185px;
-  }
-}
-
-.carousel-img {
-  width: 140px;
-}
-
-@media (max-width: 767.98px) {
-  .carousel-img {
-    width: 80px;
   }
 }
 
