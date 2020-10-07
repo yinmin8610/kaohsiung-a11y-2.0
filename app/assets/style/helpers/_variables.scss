@@ -781,7 +781,7 @@ $dropdown-link-color:               $secondary;//$gray-900 !default;
 $dropdown-link-hover-color:         $primary;//darken($gray-900, 5%) !default;
 $dropdown-link-hover-bg:            $info;//$gray-100 !default;
 
-$dropdown-link-active-color:        $component-active-color !default;
+$dropdown-link-active-color:        $primary;//$component-active-color !default;
 $dropdown-link-active-bg:           $component-active-bg !default;
 
 $dropdown-link-disabled-color:      $gray-600 !default;
