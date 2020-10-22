@@ -1,19 +1,8 @@
-// .ul-style {
-//   list-style: none;
-//   li::before {
-//     content: "\2022";
-//     color: $primary;
-//     font-weight: bold;
-//     display: inline-block;
-//     width: 1em;
-//     margin-left: -1em;
-//   }
-// }
 body {
   color: $secondary;
 }
-.min-h{
-  min-height: 650px;
+.content{
+  min-height: calc(100vh - 112px - 258px);
 }
 .border-width {
   border-left: 5px solid $primary;
@@ -58,10 +47,6 @@ body {
 .btn-menu {
   color: #5c4e44;
   background-color: #f8f6f4;
-  &:hover {
-    color: $white;
-    background-color: #d2440d;
-  }
 }
 .navbar-logo {
   width: 80px;
@@ -72,7 +57,7 @@ body {
 .navbar-title,
 .navbar-title span {
   @include media-breakpoint-down(md) {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 .bg-md-white {
@@ -89,4 +74,7 @@ body {
   @include media-breakpoint-up(lg) {
     border: 1px solid $light !important;
   }
+}
+:root{
+--swiper-theme-color: #D2440D;
 }

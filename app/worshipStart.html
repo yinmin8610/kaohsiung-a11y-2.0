@@ -5,20 +5,25 @@ engine: ejs
 current: index
 ---
 
-<div class="container">
+<div class="content container">
   <!-- 麵包屑 -->
-  <nav aria-label="breadcrumb">
+  <nav aria-label="breadcrumb" class="my-4">
+    <div id="tabC">
+      <a id="accesskey-main" href="#" title="中央主要內容區" accesskey="C">:::</a>
+    </div>
     <!-- 需要調整麵包屑的背景 -->
-    <ol class="breadcrumb pl-0 my-4" style="background-color: #ffffff;">
-      <li class="breadcrumb-item h6"><a href="index.html" class="text-dark">首頁</a></li>
-      <li class="breadcrumb-item active h6 text-primary" aria-current="page">線上祭拜</li>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item h6"><a href="index.html" class="text-dark" title="回首頁">首頁</a></li>
+      <li class="breadcrumb-item active h6" aria-current="page" title="線上祭拜">線上祭拜</li>
     </ol>
   </nav>
 
+  <!-- 標題 -->
   <h1 class="my-5 border-width pl-3">線上祭拜</h1>
 
+  <!-- 主要內容 -->
   <div class="row justify-content-center">
-    <div class="col-9">
+    <section class="col-9">
       <p class="mb-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;拜香的危害主要來自其懸浮微粒，以及燃燒產生的化學物質。拜香燃煙中含有PAHs、芳香醛及脂肪族醛，其中脂肪族醛包括甲醛、乙醛、丙烯醛、丙醛、甲基丙烯醛及丁醛六種，其中以甲醛含量最多。人體若吸入過高濃度的甲醛，將會引發呼吸氣管和眼睛的極度不適症狀，而且如果長久接觸也將導致濕疹或全身過敏等現象。燃燒拜香曾被認為是中國傳統住家醛類污染的重要來源之一。拜拜不一定要燒紙錢。</p>
       <p class="mb-5">根據行政院環保署提出，雖然燒化紙錢已經成為民間行之已久的祭祀方式，但是祭拜用紙錢含有紙漿、金箔及鉛等金屬成分，燃燒紙錢會產生的空氣污染物，如下列七項：</p>
       <div class="row mb-5">
@@ -45,7 +50,7 @@ current: index
       <div class="my-5 text-right">
         <button type="button" class="btn btn-primary px-4" onclick="location.href='./worshipUserInfo.html'">網路燒金</button>
       </div>
-    </div>
+    </section>
   </div>
 
 </div>

@@ -5,10 +5,13 @@ engine: ejs
 current: worship
 ---
 
-<div class="container">
-  <h1 class="my-5 border-width pl-3">線上祭拜</h1>
+<div class="content container">
 
-  <div class="row justify-content-center">
+  <!-- 標題 -->
+  <h1 class="my-5 border-width pl-3">線上祭拜<span class="h6"><a id="maincontent" href="#" title="中央主要內容區" accesskey="C">:::</a></span></h1>
+
+  <!-- 線上祭拜流程 -->
+  <section class="row justify-content-center">
     <div class="col-11 col-sm-8 pl-0 pl-sm-3 mr-3 mr-sm-0">
       <div class="row mb-5">
         <div class="col pr-0">
@@ -49,20 +52,21 @@ current: worship
         </div>
       </div>
     </div>
-  </div>
-  <div class="row justify-content-center">
+  </section>
+  <!-- 虔誠參拜 -->
+  <section class="row justify-content-center">
     <div class="col-9">
       <h5 class="ml-sm-5 pl-sm-3 py-5">步驟三：虔誠參拜</h5>
 
       <div class="ml-sm-5 pl-sm-3 bg bg-desk" style="position: relative">
         <div class="d-flex flex-wrap justify-content-around align-items-center" width="100px" style="position: absolute; top: 45%; bottom: 20%; left: 25%; right: 25%;">
           <img src="./assets/images/jossPaper.png" alt="金紙" class="worship-sacrifice">
-          <img src="./assets/images/apple.png" alt="蘋果" class="d-none worship-sacrifice" id="appleImg">
-          <img src="./assets/images/orange.png" alt="香橙" class="d-none worship-sacrifice" id="orangeImg">
-          <img src="./assets/images/banana.png" alt="香蕉" class="d-none worship-sacrifice" id="bananaImg">
-          <img src="./assets/images/grape.png" alt="葡萄" class="d-none worship-sacrifice" id="grapeImg">
-          <img src="./assets/images/threeAnimals.png" alt="三牲" class="d-none worship-sacrifice" id="threeAnimalsImg">
-          <img src="./assets/images/flower.png" alt="鮮花" class="d-none worship-sacrifice" id="flowerImg">
+          <img src="./assets/images/apple.png" alt="蘋果" class="d-none worship-sacrifice" data-img="apple">
+          <img src="./assets/images/orange.png" alt="香橙" class="d-none worship-sacrifice" data-img="orange">
+          <img src="./assets/images/banana.png" alt="香蕉" class="d-none worship-sacrifice" data-img="banana">
+          <img src="./assets/images/grape.png" alt="葡萄" class="d-none worship-sacrifice" data-img="grape">
+          <img src="./assets/images/threeAnimals.png" alt="三牲" class="d-none worship-sacrifice" data-img="threeAnimals">
+          <img src="./assets/images/flower.png" alt="鮮花" class="d-none worship-sacrifice" data-img="flower">
         </div>
       </div>
       <div class="my-5 text-right">
@@ -76,5 +80,5 @@ current: worship
         <button type="button" class="btn btn-primary px-4 worship-btn" id="stepThree">下一步</button>
       </div>
     </div>
-  </div>
+  </section>
 </div>

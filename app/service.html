@@ -5,24 +5,28 @@ engine: ejs
 current: service
 ---
 
-<div class="container">
+<div class="content container">
   <!-- 麵包屑 -->
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb my-4">
-      <li class="breadcrumb-item h6"><a href="index.html" class="text-dark">首頁</a></li>
-      <li class="breadcrumb-item active h6" aria-current="page">便民服務</li>
+  <nav aria-label="breadcrumb" class="my-4">
+    <div id="tabC">
+      <a id="accesskey-main" href="#" title="中央主要內容區" accesskey="C">:::</a>
+    </div>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item h6"><a href="index.html" class="text-dark" title="首頁">首頁</a></li>
+      <li class="breadcrumb-item active h6" aria-current="page" title="便民服務">便民服務</li>
     </ol>
   </nav>
 
+  <!-- 標題 -->
   <h1 class="my-5 border-width pl-3">便民服務</h1>
 
-  <div class="row mb-5">
+  <!-- 主要內容 -->
+  <section class="row mb-5">
     <div class="col-md-6">
-      <a class="btn btn-info btn-block py-4 mb-3" href="serviceDownload.html" role="button">
-        <!-- <object type="image/svg+xml" data="./assets/images/download.svg" class="icon mr-3"></object> -->
+      <a class="btn btn-info btn-block py-4 mb-3" href="serviceDownload.html" title="文件下載" role="button">
         文件下載
       </a>
     </div>
-  </div>
+  </section>
 
 </div>

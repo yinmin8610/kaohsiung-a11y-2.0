@@ -5,10 +5,14 @@ engine: ejs
 current: worshipUserInfo
 ---
 
-<div class="container">
-  <h1 class="my-5 border-width pl-3">線上祭拜</h1>
+<div class="content container">
 
-  <div class="row justify-content-center">
+  <!-- 標題 -->
+  <h1 class="my-5 border-width pl-3">線上祭拜<span class="h6"><a id="maincontent" href="#" title="中央主要內容區"
+        accesskey="C">:::</a></span></h1>
+
+  <!-- 線上祭拜流程 -->
+  <section class="row justify-content-center">
     <div class="col-11 col-sm-8 pl-2 pl-sm-3 mr-3 mr-sm-0">
       <div class="row mb-5">
         <div class="col-2 pr-0 position-relative">
@@ -49,54 +53,53 @@ current: worshipUserInfo
         </div>
       </div>
     </div>
-  </div>
-  <div class="row justify-content-center">
+  </section>
+  <!-- 表單內容 -->
+  <section class="row justify-content-center">
     <div class="col-9">
-
-      <h5 class="ml-sm-5 pl-sm-3 py-5">步驟一：請輸入您的資料</h5>
-
-      <div class="ml-sm-5 pl-sm-3">
-        <div class="form-group">
-          <label for="userName"
-            >姓名 <span class="text-primary">(必填)</span></label
-          >
-          <input
-            type="text"
-            class="form-control"
-            id="userName"
-            aria-describedby="姓名"
-            placeholder="請輸入姓名"
-          />
-        </div>
-        <div class="form-group">
-          <label for="companyName"
-            >公司名稱 <span class="text-primary">(必填)</span></label
-          >
-          <input
-            type="text"
-            class="form-control"
-            id="companyName"
-            aria-describedby="公司名稱"
-            placeholder="請輸入公司名稱"
-          />
-        </div>
-        <div class="form-group">
-          <label for="userAddress"
-            >地址 <span class="text-primary">(必填)</span></label
-          >
-          <input
-            type="text"
-            class="form-control"
-            id="userAddress"
-            aria-describedby="地址"
-            placeholder="請輸入地址"
-          />
-        </div>
-      </div>
-      <div class="my-5 text-right">
-        <button type="button" class="btn btn-outline-primary px-4 mr-3 worship-btn mb-3 mb-sm-0" onclick="location.href='worshipStart.html'">上一步</button>
-        <button type="button" class="btn btn-primary px-4 worship-btn" id="stepOne">下一步</button>
-      </div>
+      <form>
+        <fieldset>
+          <h5 class="ml-sm-5 pl-sm-3 py-5">步驟一：請輸入您的資料</h5>
+          <div class="ml-sm-5 pl-sm-3">
+            <div class="form-group">
+              <label for="userName">姓名 <span class="text-primary">(必填)</span></label>
+              <input type="text" class="form-control" id="userName" aria-describedby="姓名" placeholder="請輸入姓名" />
+              <div class="invalid-feedback">
+                請輸入姓名!
+              </div>
+              <div class="valid-feedback">
+                正確!
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="companyName">公司名稱 <span class="text-primary">(必填)</span></label>
+              <input type="text" class="form-control" id="companyName" aria-describedby="公司名稱" placeholder="請輸入公司名稱" />
+              <div class="invalid-feedback">
+                請輸入公司名稱!
+              </div>
+              <div class="valid-feedback">
+                正確!
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="userAddress">地址 <span class="text-primary">(必填)</span></label>
+              <input type="text" class="form-control" id="userAddress" aria-describedby="地址" placeholder="請輸入地址" />
+              <div class="invalid-feedback">
+                請輸地址!
+              </div>
+              <div class="valid-feedback">
+                正確!
+              </div>
+            </div>
+          </div>
+          <div class="my-5 text-right">
+            <button type="button" class="btn btn-outline-primary px-4 mr-3 worship-btn mb-3 mb-sm-0"
+              onclick="location.href='worshipStart.html'">上一步</button>
+            <button type="button" class="btn btn-primary px-4 worship-btn" id="stepOne">下一步</button>
+          </div>
+        </fieldset>
+      </form>
     </div>
-  </div>
+  </section>
+
 </div>

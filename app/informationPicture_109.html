@@ -5,28 +5,34 @@ engine: ejs
 current: informationPicture_109
 ---
 
-<div class="container min-h">
+<div class="content container ">
+
   <!-- 麵包屑 -->
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb my-4">
-      <li class="breadcrumb-item h6"><a href="index.html" class="text-dark">首頁</a></li>
-      <li class="breadcrumb-item h6"><a href="information.html" class="text-dark">訊息專區</a></li>
-      <li class="breadcrumb-item h6"><a href="informationPictures.html" class="text-dark">活動照片</a></li>
-      <li class="breadcrumb-item active h6" aria-current="page">109 年度</li>
+  <nav aria-label="breadcrumb" class="my-4">
+    <div id="tabC">
+      <a id="accesskey-main" href="#" title="中央主要內容區" accesskey="C">:::</a>
+    </div>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item h6"><a href="index.html" class="text-dark" title="首頁">首頁</a></li>
+      <li class="breadcrumb-item h6"><a href="information.html" class="text-dark" title="訊息專區">訊息專區</a></li>
+      <li class="breadcrumb-item h6"><a href="informationPictures.html" class="text-dark" title="活動照片">活動照片</a></li>
+      <li class="breadcrumb-item active h6" aria-current="page" title="109 年度">109 年度</li>
     </ol>
   </nav>
 
+  <!-- 標題 -->
   <h1 class="my-5 border-width pl-3">109 年度</h1>
 
-  <div class="mb-5">
+  <!-- 主要內容 -->
+  <section class="mb-5">
     <div class="list-group">
       <!-- 109 年中元普渡以功代金暨淨爐灑淨祈福法會 (109.08.12) -->
-      <div class="border-under p-4">
-        <div class="d-flex justify-content-between">
+      <article class="border-under p-4">
+        <div class="d-flex flex-column flex-md-row justify-content-between">
           <h2 class="h5 mb-2">中元普渡以功代金暨淨爐灑淨祈福法會</h2>
-          <h2 class="h5 mb-2">109.08.12</h2>
+          <small class="mb-2">109.08.12</small>
         </div>
-        <h2 class="h5 mb-2">舉辦地點：南區焚化廠</h2>
+        <small class="mb-2">舉辦地點：南區焚化廠</small>
         <div class="row justify-content-start align-content-center my-5">
           <div class="col-12 col-md-4 mb-3 mb-md-0">
             <img class="img-fluid" src="http://www.escotech.com.tw/pudu/photos/109-05.jpg" alt="109 年中元普渡祈福法會第一張圖片" />
@@ -35,15 +41,15 @@ current: informationPicture_109
             <img class="img-fluid" src="http://www.escotech.com.tw/pudu/photos/109-051.jpg" alt="109 年中元普渡祈福法會第二張圖片" />
           </div>
         </div>
-      </div>
+      </article>
 
       <!-- 清明節紙錢集中燒 (109.03.28-109.04.06) -->
-      <div class="border-under p-4">
-        <div class="d-flex justify-content-between">
+      <article class="border-under p-4">
+        <div class="d-flex flex-column flex-md-row justify-content-between">
           <h2 class="h5 mb-2">清明節紙錢集中燒</h2>
-          <h2 class="h5 mb-2">109.03.28 至 109.04.06</h2>
+          <small class="mb-2">109.03.28 至 109.04.06</small>
         </div>
-        <h2 class="h5 mb-2">舉辦地點：中區焚化廠</h2>
+        <small class="mb-2">舉辦地點：中區焚化廠</small>
         <div class="row justify-content-start align-content-center my-5">
           <div class="col-12 col-md-4 mb-3 mb-md-0">
             <img class="img-fluid" src="http://www.escotech.com.tw/pudu/photos/109-03.jpg" alt="109 年清明節紙錢集中燒化第一張圖片" />
@@ -52,15 +58,15 @@ current: informationPicture_109
             <img class="img-fluid" src="http://www.escotech.com.tw/pudu/photos/109-04.jpg" alt="109 年清明節紙錢集中燒化第二張圖片" />
           </div>
         </div>
-      </div>
+      </article>
 
       <!-- 春節及天公生紙錢集中燒 (109.01.29-109.02.03) -->
-      <div class="border-under p-4">
-        <div class="d-flex justify-content-between">
+      <article class="border-under p-4">
+        <div class="d-flex flex-column flex-md-row justify-content-between">
           <h2 class="h5 mb-2">春節及天公生紙錢集中燒</h2>
-          <h2 class="h5 mb-2">109.01.29 至 109.02.03</h2>
+          <small class="mb-2">109.01.29 至 109.02.03</small>
         </div>
-        <h2 class="h5 mb-2">舉辦地點：中區焚化廠</h2>
+        <small class="mb-2">舉辦地點：中區焚化廠</small>
         <div class="row justify-content-start align-content-center my-5">
           <div class="col-12 col-md-4 mb-3 mb-md-0">
             <img class="img-fluid" src="http://www.escotech.com.tw/pudu/photos/109-01.jpg"
@@ -71,9 +77,8 @@ current: informationPicture_109
               alt="109 年春節及天公生紙錢集中燒化第二張圖片" />
           </div>
         </div>
-      </div>
-
+      </article>
     </div>
-  </div>
+  </section>
 
 </div>

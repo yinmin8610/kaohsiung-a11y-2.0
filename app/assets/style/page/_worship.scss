@@ -40,7 +40,16 @@
     background-image: url(../../assets/images/worship.gif);
   }
 }
-
+.a{
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+.b{
+  opacity: 0;
+}
 @media (max-width: 991.98px) {
   .line {
     width: 68%;
@@ -63,7 +72,7 @@
       width: 20px;
     }
     &-thanks-text{
-      font-size: 20px;
+      font-size: 1.25rem;
     }
   }
   .bg{
