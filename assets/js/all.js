@@ -108,9 +108,11 @@ if (btnStepTwo) {
 
 var getArr = JSON.parse(localStorage.getItem('checkbox_object')); // 顯示圖片
 
-if (location.pathname === '/worship.html') {
+if (getArr) {
   getArr.forEach(function (item) {
-    return document.querySelector("[data-img=\"".concat(item, "\"]")).classList.add("d-block");
+    if (document.querySelector("[data-img=\"".concat(item, "\"]")) !== null) {
+      document.querySelector("[data-img=\"".concat(item, "\"]")).classList.add("d-block");
+    }
   });
 } // 監聽點選下一步事件
 
