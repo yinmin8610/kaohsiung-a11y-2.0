@@ -101,11 +101,14 @@ if (btnStepTwo) {
 // 步驟三
 var getArr = JSON.parse(localStorage.getItem('checkbox_object'));
 // 顯示圖片
-if(location.pathname === '/worship.html'){
- getArr.forEach(item => 
-  document.querySelector(`[data-img="${item}"]`).classList.add("d-block")
- ); 
+if (getArr) {
+  getArr.forEach(item => {
+    if (document.querySelector(`[data-img="${item}"]`) !== null) {
+      document.querySelector(`[data-img="${item}"]`).classList.add("d-block");
+    }
+  });
 }
+
 
 // 監聽點選下一步事件
 var btnStepThree = document.getElementById('stepThree');
@@ -158,7 +161,8 @@ $(".navbar-nav .nav-item").hover(function () {
 
 //寺廟資訊
 $.ajax({
-  url: "https://raw.githubusercontent.com/yinmin8610/kaohsiung-a11y-2.0/file/app/assets/file/templeInfo.json",
+  // url: "https://raw.githubusercontent.com/yinmin8610/kaohsiung-a11y-2.0/file/app/assets/file/templeInfo.json",
+  url: "./assets/js/templeInfo.json",
   type: "GET",
   dataType: "json",
   success: function (data) {
