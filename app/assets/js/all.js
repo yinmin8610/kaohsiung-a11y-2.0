@@ -101,11 +101,14 @@ if (btnStepTwo) {
 // 步驟三
 var getArr = JSON.parse(localStorage.getItem('checkbox_object'));
 // 顯示圖片
-getArr.forEach(item => {
-  if (document.querySelector(`[data-img="${item}"]`) !== null) {
-    document.querySelector(`[data-img="${item}"]`).classList.add("d-block");
-  }
-});
+if (getArr) {
+  getArr.forEach(item => {
+    if (document.querySelector(`[data-img="${item}"]`) !== null) {
+      document.querySelector(`[data-img="${item}"]`).classList.add("d-block");
+    }
+  });
+}
+
 
 // 監聽點選下一步事件
 var btnStepThree = document.getElementById('stepThree');
