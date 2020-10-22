@@ -158,7 +158,8 @@ $(".navbar-nav .nav-item").hover(function () {
 
 //寺廟資訊
 $.ajax({
-  url: "https://raw.githubusercontent.com/yinmin8610/kaohsiung-a11y-2.0/file/app/assets/file/templeInfo.json",
+  // url: "https://raw.githubusercontent.com/yinmin8610/kaohsiung-a11y-2.0/file/app/assets/file/templeInfo.json",
+  url: "./assets/js/templeInfo.json",
   type: "GET",
   dataType: "json",
   success: function (data) {
